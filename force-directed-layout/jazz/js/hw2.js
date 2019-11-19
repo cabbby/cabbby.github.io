@@ -68,8 +68,8 @@ function sleep(time) {
 
 class fdg {
     constructor(graph) {
-        this.width = 1600;
-        this.height = 1600;
+        this.width = 1630;
+        this.height = 880;
         this.t_max = 1000;
 
         this.nodes = graph.nodes;
@@ -93,8 +93,8 @@ class fdg {
             this.c.y += node.pos.y;
         });
 
-        this.k_len_c = 0.4;
-        this.k_grav = 1 / 8;
+        this.k_len_c = 0.8;
+        this.k_grav = 0.4;
         this.k_rand = 128;
 
         this.k_rot = 1 / (2 * this.nodes.length);
@@ -122,6 +122,28 @@ class fdg {
         let svg = d3.select("#mySVG");
     
         let ext = d3.extent(this.nodes, d => d.deg);
+
+        svg.selectAll(".caption1")
+            .data(["GLEISER,DANON--COLLABORATION IN JAZZ"])
+            .join("text")
+            .classed("caption1", true)
+            .text(d => d)
+            .attr("transform", `translate(${[this.width / 2, 20]})`)
+            .attr("alignment-baseline", "middle")
+            .attr("text-anchor", "middle")
+            .style("font-size", 20)
+            .style("font-weight", "bold");
+
+        svg.selectAll(".caption2")
+            .data([`(${this.nodes.length} nodes, ${this.edges.length} edges)`])
+            .join("text")
+            .classed("caption2", true)
+            .text(d => d)
+            .attr("transform", `translate(${[this.width / 2, 40]})`)
+            .attr("alignment-baseline", "middle")
+            .attr("text-anchor", "middle")
+            .style("font-size", 12);
+
     
         svg.selectAll(".edge")
             .data(this.edges)
@@ -132,14 +154,14 @@ class fdg {
             .attr("x2", d => d.v.pos.x)
             .attr("y2", d => d.v.pos.y)
             .style("stroke", "steelblue")
-            .style("stroke-width", 1);
+            .style("stroke-width", 0.3);
     
         svg.selectAll(".node")
             .data(this.nodes)
             .join("circle")
             .classed("node", true)
             .attr("transform", d => `translate(${[d.pos.x, d.pos.y]})`)
-            .attr("r", 8)
+            .attr("r", 3)
             .style("fill", d => d3.interpolateReds( 0.1 + 0.9 * (d.deg - ext[0]) / (ext[1] - ext[0]) ))
             .style("stroke", "black")
             .style("stroke-width", 0.5)
@@ -162,7 +184,7 @@ class fdg {
                 svg.selectAll(".edge")
                     .transition()
                     .style("opacity", t => (t.u == d || t.v == d)? 1: 0.1)
-                    .style("stroke-width", t => (t.u == d || t.v == d)? 2: 1);
+                    .style("stroke-width", t => (t.u == d || t.v == d)? 1: 0.5);
             }).on("mouseout", d => {
                 svg.selectAll(".node")
                     .transition()
@@ -174,19 +196,21 @@ class fdg {
                 svg.selectAll(".edge")
                     .transition()
                     .style("opacity", 1)
-                    .style("stroke-width", 1);
+                    .style("stroke-width", 0.5);
             });
     
         svg.selectAll(".label")
             .data(this.nodes)
             .join("text")
             .classed("label", true)
-            .attr("transform", d => `translate(${[d.pos.x, d.pos.y - 14]})`)
+            .attr("transform", d => `translate(${[d.pos.x, d.pos.y - 9]})`)
             .text(d => d.label)
             .attr("alignment-baseline", "middle")
             .attr("text-anchor", "middle")
             .style("fill", "black")
             .style("font-size", 12);
+
+        toggleLabels();
     }
 
     iterate() {
@@ -229,13 +253,14 @@ class fdg {
             e.v.disp = e.v.disp.sub(d.norm().mul(f_a(d.len())));
         })
 
+        
         // frame repulsion forces
         nodes.forEach(u => {
             let k_frame = sqr(t_max);
             u.disp.x += Math.min(sqr(t_max), k_frame / sqr(u.pos.x));
             u.disp.x -= Math.min(sqr(t_max), k_frame / sqr(width - u.pos.x));
-            u.disp.y += Math.min(sqr(t_max), k_frame / sqr(u.pos.y));
-            u.disp.y -= Math.min(sqr(t_max), k_frame / sqr(height - u.pos.y));
+            u.disp.y += Math.min(sqr(t_max), k_frame / sqr(u.pos.y)) * 2;
+            u.disp.y -= Math.min(sqr(t_max), k_frame / sqr(height - u.pos.y)) * 0.1;
         })
 
         // update temperature
@@ -273,61 +298,22 @@ class fdg {
 }
 
 function readData() {
-    return d3.json("data/honglou.json");
+    return d3.csv("data/jazz.csv");
 }
 
-function getGraph(hl) {
-    let idmap = [], tnodes = [], tedges = [];
+function prepare(d) {
     let graph = {
         nodes: [],
         edges: []
     }
-    let v_cnt = 0, deg = [];
-    hl.data.nodes.forEach(node => {
-        if (node.categories[0] == "person") {
-            idmap[node.id] = v_cnt;
-            tnodes.push(new Node(v_cnt, node.label));
-            deg.push(0);
-            v_cnt++;
-        }
-    })
-
-    hl.data.edges.forEach(edge => {
-        if (idmap[edge.from] != undefined && idmap[edge.to] != undefined) {
-            let u = idmap[edge.from], v = idmap[edge.to];
-            if (u > v) {
-                let t = u; u = v; v = t;
-            }
-            let flag = true;
-            for (let i in tedges) {
-                if (tedges[i].u == u && tedges[i].v == v) {
-                    flag = false; break;
-                }
-            }
-
-            if (flag) {
-                tedges.push(new Edge(idmap[edge.from], idmap[edge.to]));
-                deg[idmap[edge.from]]++;
-                deg[idmap[edge.to]]++;
+    for (let i = 0; i < d.length; i++) {
+        graph.nodes.push(new Node(i, `${i + 1}`));
+        for (let j in d[i]) {
+            if (i < j && d[i][j] == "1") {
+                graph.edges.push(new Edge(i, j - 1));
             }
         }
-    })
-
-    v_cnt = 0;
-    idmap = [];
-    tnodes.forEach(node => {
-        if (deg[node.id] > 0) {
-            idmap[node.id] = v_cnt;
-            graph.nodes.push(new Node(v_cnt, node.label));
-            v_cnt++;
-        }
-    })
-    tedges.forEach(edge => {
-        if (idmap[edge.u] != undefined && idmap[edge.v] != undefined) {
-            graph.edges.push(new Edge(idmap[edge.u], idmap[edge.v]));
-        }
-    })
-    console.log(graph)
+    }
     return graph;
 }
 
@@ -337,6 +323,7 @@ let plist = ["width", "height", "t_max", "t_min", "k_grav", "k_rand", "k_len_c",
 let t_min = 1;
 
 async function loop() {
+    let t1 = new Date();
     while (flag) {
         iter++;
         let mxt = g.iterate();
@@ -353,6 +340,8 @@ async function loop() {
             await sleep(1);
     }
     g.draw();
+    let t2 = new Date();
+    console.log((t2.getSeconds() - t1.getSeconds()) * 1000 + t2.getMilliseconds() - t1.getMilliseconds());
 }
 
 function updateParams() {
@@ -377,6 +366,13 @@ function toggle() {
         g.draw();
 }
 
+function toggleLabels() {
+    let svg = d3.select("#mySVG");
+    svg.selectAll(".label")
+        .transition()
+        .attr("visibility", d3.select("#chkShowLabels").property("checked")? "visible": "hidden");
+}
+
 async function reset() {
     flag = false;
     await sleep(1);
@@ -389,8 +385,8 @@ async function reset() {
     loop();
 }
 
-readData().then(async (hl) => {
-    g = new fdg(getGraph(hl));
+readData().then(async (d) => {
+    g = new fdg(prepare(d));
 
     let pdiv = d3.select("#params");
     plist.forEach(name => {
@@ -404,5 +400,6 @@ readData().then(async (hl) => {
     })
 
     iter = 0;
+    
     loop();
 })

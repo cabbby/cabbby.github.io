@@ -1,0 +1,43 @@
+﻿body {
+    font: 10px sans-serif;
+}
+
+div{
+    text-align: left;/* div 内元素靠左对齐 */
+}
+
+div.selectors, div.axis_selector, div.headline, div#svgContainer{
+    text-align: center;/* div 内元素居中 */
+}
+/*“标签名+类名”选择器：选中“带有某个类名”的“某些标签”
+不同选择器之间用逗号隔开，从而应用同一个CSS规则
+CSS中，选择条件越多，则优先级越高。“div + 类名”的规则优先级高于“div”的规则，并覆盖后者 */
+
+div.axis_selector{
+    display: inline;
+}
+
+svg{
+    
+    /*border: solid #ccc 4px;  */
+    /*margin-top: 10px;            */
+    
+    display: inline-block;
+    overflow: visible;
+}
+
+text {
+    user-select:none;
+}
+
+.lblInput {
+    width: 20%;
+    user-select:none;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.inpParam {
+    width: 60%;
+}

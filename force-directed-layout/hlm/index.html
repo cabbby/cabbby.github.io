@@ -4,22 +4,8 @@
 <head>
     <title>visclass_f19_魏龙_1700012905_a02</title>
     <link href="css/index.css" type="text/css" rel="stylesheet" />
-    <link href="css/d3-tip.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-    <!--
-    <div style="position: fixed; right: 10px; top: 10px; display: grid; grid-template-columns: [col] 120px [col] 120px; grid-template-rows: [row] auto [row] auto [row];">
-        <div style="grid-column: col 1 / span 2; grid-row: row 1">
-            <text id="indicator" style="font-size: 13px; position: relative;"></text>
-        </div>
-        <div style="grid-column: col 1 / span 1; grid-row: row 2">
-            <button id="btnToggle" onclick="toggle()" style="width: 100%;">Pause</button>
-        </div>
-        <div style="grid-column: col 2 / span 1; grid-row: row 2">
-            <button id="btnReset" onclick="reset()" style="width: 100%;">Reset</button>
-        </div>
-    </div>
-    -->
     <div style="position: fixed; right: 0px; top: 0px; height:100%; padding-top: 20px; box-shadow: -3px 0px 5px #b6c7c9d7; background-color: #b6c7c96e;">
         <div style="display: flex; justify-content: center; width: 250px; flex-wrap: wrap;">
             <div style="width: 250px; height: 30px; display: flex; justify-content: center; align-items: center;">
@@ -31,7 +17,8 @@
             </div>
 
             <div style="width:100%; display: flex; justify-content: center; padding-bottom: 10px;">
-                <input type="checkbox" id="chkShowProgress" checked="true">Show progress</input>
+                <input type="checkbox" id="chkShowProgress">Show progress</input>
+                <input type="checkbox" id="chkShowLabels" onclick="toggleLabels()">Show labels</input>
             </div>
 
             <div style="width: 100px; height: 25px; display: flex; justify-content: center;">
@@ -46,7 +33,6 @@
     <svg id="mySVG" width=1600 height=1600></svg>
 
     <script type="text/javascript" src="js/d3/d3-v5.12.0/d3.min.js"></script>
-    <script type="text/javascript" src="js/d3/d3-tip.js"></script>
     <script type="text/javascript" src="js/hw2.js"></script>
 </body>
 </html>
