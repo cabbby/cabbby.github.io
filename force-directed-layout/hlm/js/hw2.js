@@ -423,6 +423,10 @@ async function reset() {
 readData().then(async (hl) => {
     g = new fdg(prepare(hl, 0));
 
+    d3.select("#mySVG")
+        .attr("width", g.width)
+        .attr("height", g.height);
+
     let pdiv = d3.select("#params");
     plist.forEach(name => {
         pdiv.append("div")
