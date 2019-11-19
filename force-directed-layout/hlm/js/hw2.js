@@ -69,7 +69,7 @@ function sleep(time) {
 class fdg {
     constructor(graph) {
         this.width = 1630;
-        this.height = 920;
+        this.height = 880;
         this.t_max = 1000;
 
         this.nodes = graph.nodes;
