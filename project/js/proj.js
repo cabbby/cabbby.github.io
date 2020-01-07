@@ -124,7 +124,8 @@ class SBC_inst {
                     return sumdict(d_fac.count[b]) - sumdict(d_fac.count[a]);
                 })
                 g_fac_hist.update(d_fac_all, d_fac);
-                g_fac.update(filter_fac_count(d_fac, sel_range));
+                let s = sel_range.map(d => y.invert(d));
+                g_fac.update(filter_fac_count(d_fac, s));
             });
 
         g.selectAll(".entrank")
@@ -461,10 +462,13 @@ class Hist_fac {
             .transition()
             .attr("width", d => x(d.length))
             .attr("height", d => y(d.x1) - y(d.x0) - 2);
-            
+        
         this.brush.on("brush end", function () {
             sel_range = d3.event.selection;
             let s = sel_range.map(d => y.invert(d));
+            //console.log("hi", sel_range);
+            //console.log(filter_fac_count(d_fac, s));
+
             g_fac.update(filter_fac_count(d_fac, s));
             svg.attr("height", Math.max(g_inst.height, g_fac_hist.height + g_fac.height) + 150);
             d3.select(".g1").attr("height", Math.max(g_inst.height, g_fac_hist.height + g_fac.height) + 150 + "px");
@@ -472,7 +476,7 @@ class Hist_fac {
         
         let ir = y.range();
         ir[0] = ir[1] / 3;
-
+    
         this.g.selectAll(".brush").remove();
         this.brushg = this.g.append("g")
             .classed("brush", true)
