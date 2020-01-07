@@ -6,6 +6,7 @@ var OPACITY = {
     link: 0.8
 };
 
+var regions = ['africa', 'asia', 'australasia', 'canada', 'europe', 'none', 'southamerica'];
 function show(data_dict, iter = 'Peking University'){
     d3.select('.rightBar').classed('rightBar-moved', true);
     d3.select('#bar_image1').attr('src', data_dict[iter].pic[0])
@@ -117,19 +118,52 @@ function chart1() {
             .attr("cy", function(d) { return d.y; })
             .attr("r", 4.5)
             .attr("opacity",OPACITY.node)
-            .style("fill", function(d) { return color(d.group); })
+            .style("fill", function(d) { return color(regions.indexOf(d.region) + 1); })
             // .call(force.drag);
             .on("mouseover",function(d){
-                // console.log();
+                // console.log(d);
                 if (d3.select(this).attr('opacity') == OPACITY.node) {
                     show(data_dict,d.name);
                 }
+                nei = d.neighbors;
+                nei.push(d.name);
+                svg.selectAll(".node")
+                    .attr("opacity",function(dd){
+                        if (d3.select(this).attr('opacity') != OPACITY.node) {
+                            return d3.select(this).attr('opacity');
+                        }
+                        else if (nei.indexOf(dd.name) != -1) {
+                            return OPACITY.node;
+                        }
+                        else {
+                            return OPACITY.node / 4;
+                        }
+                    })
+                
+                svg.selectAll(".link")
+                    .style("stroke", e => e.source.name == d.name || e.target.name == d.name? "red": "#999")
+                    .style("stroke-width", e => e.source.name == d.name || e.target.name == d.name? 3: 1.5);
+                svg.selectAll(".link")
+                    .sort((a, b) => (a.source.name == d.name || a.target.name == d.name) - (b.source.name == d.name || b.target.name == d.name));
               // console.log(d);
               
             })
             .on("mouseout",function(){
-              // unshow();
+            //   unshow();
+                svg.selectAll(".node")
+                    .attr("opacity",function(dd){
+                        if (d3.select(this).attr('opacity') == OPACITY.node / 4) {
+                            return OPACITY.node;
+                        }
+                        else{
+                            return d3.select(this).attr('opacity');
+                        }
+                    })
+                svg.selectAll(".link")
+                    .style("stroke", "#999")
+                    .style("stroke-width", 1.5);
             })
+
 
         // svg.on("mousemove", function() {
         //   fisheye.focus(d3.mouse(this));
