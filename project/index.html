@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+    <title>vis_proj</title>
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+    <link href="css/d3-tip.css" type="text/css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="css/bar.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.range.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.range.js"></script>
+</head>
+<body>
+    <div class="g1" style="position: absolute; width:80%; left: 320px;">
+        <svg id="svg1" width="100%" height="100%"></svg>
+    </div>
+
+    <script type="text/javascript" src="js/d3/d3-v5.12.0/d3.min.js"></script>
+    <script type="text/javascript" src="js/d3-tip.js"></script>
+    <script type="text/javascript" src="js/proj.js"></script>
+
+
+    <div id="sliders" class="leftBar rightBar-moved">
+		<div class="artistName">Region</div>
+		  <select id="regions" name="regions">
+		    <option value="usa">the USA</option>
+		    <option value="canada">Canada</option>
+		    <option value="northamerica">USA and Canada</option>
+		    <option value="southamerica">South America</option>
+		    <option value="asia" selected="selected">Asia</option>
+		    <option value="australasia">Australasia</option>
+		    <option value="europe">Europe</option>
+		    <option value="africa">Africa</option>
+		    <option value="world">the world</option>
+		  </select>
+		<br>
+		<br>
+		<div class="artistName"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="all" id="all" name="checkme">All areas</div>
+        	<div class="artistSubtitle"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="all_ai" id="all_ai" name="checkme">AI</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="ai" id="ai" name="checkme">Artificial intelligence</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="vision" id="vision" name="checkme">Computer vision</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="mlmining" id="mlmining" name="checkme">Machine learning & data mining</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="nlp" id="nlp" name="checkme">Natural language processing</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="ir" id="ir" name="checkme">The Web & information retrieval</div>
+	        <div class="artistSubtitle"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="all_system" id="all_system" name="checkme">Systems</div>
+	        	<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="arch" id="arch" name="checkme">Computer architecture</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="comm" id="comm" name="checkme">Computer networks</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="sec" id="sec" name="checkme">Computer security</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="mod" id="mod" name="checkme">Databases</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="da" id="da" name="checkme">Design automation</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="bed" id="bed" name="checkme">Embedded & real-time systems</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="hpc" id="hpc" name="checkme">High-performance computing</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="mobile" id="mobile" name="checkme">Mobile computing</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="metrics" id="metrics" name="checkme">Measurement & perf. analysis</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="ops" id="ops" name="checkme">Operating systems</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="plan" id="plan" name="checkme">Programming languages</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="soft" id="soft" name="checkme">Software engineering</div>
+	        <div class="artistSubtitle"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="all_theory" id="all_theory" name="checkme">Theory</div>
+	        	<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="act" id="act" name="checkme">Algorithms & complexity</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="crypt" id="crypt" name="checkme">Cryptography</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="log" id="log" name="checkme">Logic & verification</div>
+	        <div class="artistSubtitle"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="all_inter" id="all_inter" name="checkme">Interdisciplinary Areas</div>
+	        	<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="bio" id="bio" name="checkme">Comp. bio & bioinformatics</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="graph" id="graph" name="checkme">Computer graphics</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="ecom" id="ecom" name="checkme">Economics & computation</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="chi" id="chi" name="checkme">Human-computer interaction</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="robotics" id="robotics" name="checkme">Robotics</div>
+				<div class="artistContent"><input style="vertical-align: baseline" type="checkbox"  checked="checked" value="visualization" id="visualization" name="checkme">Visualization</div>
+    </div>
+    
+    <script type="text/javascript">
+		// console.log(value);
+		var parent2child = {'all_ai':["ai", "vision", "mlmining", "nlp", "ir"],'all_inter':["bio", "graph", "ecom", "chi", "robotics", "visualization"],'all_system':["arch", "comm", "sec", "mod", "da", "bed", "hpc", "mobile", "metrics", "ops", "plan", "soft"],'all_theory':["act", "crypt", "log"]};
+        var sel_areas = [];
+
+		$('input:checkbox').click(function ()
+		{
+			// console.log(this);
+			var checkboxs = document.getElementsByName('checkme');
+			var value = [];
+			if (this.value == 'all') {
+				for (var i = 0; i < checkboxs.length; i++) {
+						checkboxs[i].checked = this.checked;
+				}
+			}
+			else if (this.value.indexOf("all_") != -1) {
+				for (var i = 0; i < checkboxs.length; i++) {
+					if (parent2child[this.value].indexOf(checkboxs[i].value) != -1) {
+						checkboxs[i].checked = this.checked;
+					}
+				}
+			}
+			else {
+				if (!this.checked) {
+					for (var i = 0; i < checkboxs.length; i++) {
+						if (checkboxs[i].value == 'all') {
+							checkboxs[i].checked = false;
+							break;
+						}
+					}
+					for (var key in parent2child) {
+						if (parent2child[key].indexOf(this.value) != -1) {
+							for (var i = 0; i < checkboxs.length; i++) {
+								if (checkboxs[i].value == key) {
+									checkboxs[i].checked = false;
+									break;
+								}
+							}
+							break;
+						}
+					}
+
+				}
+			}
+
+			for (var i = 0; i < checkboxs.length; i++) {
+				if (checkboxs[i].checked) {
+					value.push(checkboxs[i].value);
+				}
+			}
+            console.log(value);
+            sel_areas = value;
+            refresh();
+        })
+
+        let checkboxs = document.getElementsByName('checkme');
+        for (var i = 0; i < checkboxs.length; i++) {
+            if (checkboxs[i].checked) {
+                sel_areas.push(checkboxs[i].value);
+            }
+        }
+
+		d3.select("#regions").on("change",function(){
+			refresh();
+		})
+
+
+	</script>
+	
+	<div class="bottomBar rightBar-moved">
+		<input class="range-slider" type="hidden" value="1970,2019" style="margin:0 auto;text-align: center;">
+    </div>
+    <script type="text/javascript">
+    	$('.range-slider').jRange({
+		    from: 1970,
+		    to: 2019,
+		    step: 1,
+		    scale: [1970,1975,1980,1985,1990,1995,2000,2005,2010,2015,2019],
+		    format: '%s',
+		    width: 1000,
+		    showLabels: true,
+            isRange : true,
+            theme: "theme-blue",
+            ondragend: refresh
+        });
+        $('.range-slider').jRange('setValue', "2010,2019");
+    </script>
+
+    <!--
+	<button id="show_slider" class="showOrNot" onclick="change()">隐藏工具栏</button>
+	<script type="text/javascript">
+		// 控制 筛选器 显示与否
+		function change() {
+			var show_slider = document.getElementById('show_slider');
+			var sliders = document.getElementById('sliders');
+			if (show_slider.innerHTML == '显示工具栏') {
+				show_slider.innerHTML = '隐藏工具栏';
+				d3.select('.leftBar').classed('rightBar-moved', true);
+				d3.select('.bottomBar').classed('rightBar-moved', true);
+			}
+			else{
+				show_slider.innerHTML = '显示工具栏';
+				d3.select('.leftBar').classed('rightBar-moved', false);
+				d3.select('.bottomBar').classed('rightBar-moved', false);
+			}
+		}
+    </script>
+    -->
+
+	<div id="bar" class="leftBar-info rightBar-moved">
+        <div id="bar_name" class="artistName">-</div>
+        <div id="t1" class="artistSubtitle">Homepage</div>
+        <div id="bar_homepage" class="artistContent">-</div>
+        <div id="t2" class="artistSubtitle">Info</div>
+        <div id="bar_region" class="artistContent">-</div>
+        <div class="img">
+            <img id="bar_image1" class="imagefit">
+            <img id="bar_image2" class="imagefit">
+        </div>
+    </div>
+
+    <script src="js/info.js"></script>
+
+</body>
+</html>

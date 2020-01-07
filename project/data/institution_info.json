@@ -1,0 +1,3989 @@
+[
+  {
+    "institution": "University of Waterloo",
+    "homepage": "http://www.math.uwaterloo.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of Waterloo_0.jpg",
+      "data/pic/University of Waterloo_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Denver",
+    "homepage": "http://www.cs.du.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Denver_0.jpg",
+      "data/pic/University of Denver_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Michigan-Dearborn",
+    "homepage": "https://umdearborn.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Michigan-Dearborn_0.jpg",
+      "data/pic/University of Michigan-Dearborn_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Tennessee",
+    "homepage": "http://web.eecs.utk.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Tennessee_0.jpg",
+      "data/pic/University of Tennessee_1.jpg"
+    ]
+  },
+  {
+    "institution": "Middle East Technical University",
+    "homepage": "http://user.ceng.metu.edu.tr",
+    "region": "europe",
+    "pic": [
+      "data/pic/Middle East Technical University_0.jpg",
+      "data/pic/Middle East Technical University_1.jpg"
+    ]
+  },
+  {
+    "institution": "CUNY",
+    "homepage": "https://www.ccny.cuny.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/CUNY_0.jpg",
+      "data/pic/CUNY_1.jpg"
+    ]
+  },
+  {
+    "institution": "Case Western Reserve University",
+    "homepage": "http://engineering.case.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Case Western Reserve University_0.jpg",
+      "data/pic/Case Western Reserve University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Houston",
+    "homepage": "http://www2.cs.uh.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Houston_0.jpg",
+      "data/pic/University of Houston_1.jpg"
+    ]
+  },
+  {
+    "institution": "Rutgers University",
+    "homepage": "http://bernsteinaaron.com",
+    "region": "usa",
+    "pic": [
+      "data/pic/Rutgers University_0.jpg",
+      "data/pic/Rutgers University_1.jpg"
+    ]
+  },
+  {
+    "institution": "TU Delft",
+    "homepage": "http://mmc.tudelft.nl",
+    "region": "europe",
+    "pic": [
+      "data/pic/TU Delft_0.jpg",
+      "data/pic/TU Delft_1.jpg"
+    ]
+  },
+  {
+    "institution": "Texas A&M at Qatar",
+    "homepage": "https://www.qatar.tamu.edu",
+    "region": "asia",
+    "pic": [
+      "data/pic/Texas A&M at Qatar_0.jpg",
+      "data/pic/Texas A&M at Qatar_1.jpg"
+    ]
+  },
+  {
+    "institution": "Shenzhen University",
+    "homepage": "http://nhpcc.szu.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/Shenzhen University_0.jpg",
+      "data/pic/Shenzhen University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Texas - El Paso",
+    "homepage": "http://faculty.utep.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Texas - El Paso_0.jpg",
+      "data/pic/University of Texas - El Paso_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Dundee",
+    "homepage": "https://www.computing.dundee.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Dundee_0.jpg",
+      "data/pic/University of Dundee_1.jpg"
+    ]
+  },
+  {
+    "institution": "EURECOM",
+    "homepage": "http://www.eurecom.fr",
+    "region": "europe",
+    "pic": [
+      "data/pic/EURECOM_0.jpg",
+      "data/pic/EURECOM_1.jpg"
+    ]
+  },
+  {
+    "institution": "Rensselaer Polytechnic Institute",
+    "homepage": "http://www.cs.rpi.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Rensselaer Polytechnic Institute_0.jpg",
+      "data/pic/Rensselaer Polytechnic Institute_1.jpg"
+    ]
+  },
+  {
+    "institution": "Washington University in St. Louis",
+    "homepage": "https://www.cc.gatech.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Washington University in St. Louis_0.jpg",
+      "data/pic/Washington University in St. Louis_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Manitoba",
+    "homepage": "http://www.cs.umanitoba.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of Manitoba_0.jpg",
+      "data/pic/University of Manitoba_1.jpg"
+    ]
+  },
+  {
+    "institution": "Missouri University of Technology",
+    "homepage": "http://web.mst.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Missouri University of Technology_0.jpg",
+      "data/pic/Missouri University of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "Rice University",
+    "homepage": "http://akane.sano.web.rice.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Rice University_0.jpg",
+      "data/pic/Rice University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Ariel University",
+    "homepage": "http://www.ariel.ac.il",
+    "region": "europe",
+    "pic": [
+      "data/pic/Ariel University_0.jpg",
+      "data/pic/Ariel University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Ohio University",
+    "homepage": "http://oucsace.cs.ohiou.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Ohio University_0.jpg",
+      "data/pic/Ohio University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Idaho",
+    "homepage": "http://www.uidaho.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Idaho_0.jpg",
+      "data/pic/University of Idaho_1.jpg"
+    ]
+  },
+  {
+    "institution": "Karlsruhe Institute of Technology (KIT)",
+    "homepage": "http://www.scc.kit.edu",
+    "region": "europe",
+    "pic": [
+      "data/pic/Karlsruhe Institute of Technology (KIT)_0.jpg",
+      "data/pic/Karlsruhe Institute of Technology (KIT)_1.jpg"
+    ]
+  },
+  {
+    "institution": "DTU",
+    "homepage": "https://www.compute.dtu.dk",
+    "region": "europe",
+    "pic": [
+      "data/pic/DTU_0.jpg",
+      "data/pic/DTU_1.jpg"
+    ]
+  },
+  {
+    "institution": "Technion",
+    "homepage": "http://webee.technion.ac.il",
+    "region": "europe",
+    "pic": [
+      "data/pic/Technion_0.jpg",
+      "data/pic/Technion_1.jpg"
+    ]
+  },
+  {
+    "institution": "Colorado School of Mines",
+    "homepage": "https://inside.mines.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Colorado School of Mines_0.jpg",
+      "data/pic/Colorado School of Mines_1.jpg"
+    ]
+  },
+  {
+    "institution": "UFPE",
+    "homepage": "http://www.cin.ufpe.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/UFPE_0.jpg",
+      "data/pic/UFPE_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Bombay",
+    "homepage": "https://www.cse.iitb.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Bombay_0.jpg",
+      "data/pic/IIT Bombay_1.jpg"
+    ]
+  },
+  {
+    "institution": "Florida State University",
+    "homepage": "http://www.alankuhnle.com",
+    "region": "usa",
+    "pic": [
+      "data/pic/Florida State University_0.jpg",
+      "data/pic/Florida State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Maryland - College Park",
+    "homepage": "https://www.cs.umd.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Maryland - College Park_0.jpg",
+      "data/pic/University of Maryland - College Park_1.jpg"
+    ]
+  },
+  {
+    "institution": "UFMS",
+    "homepage": "https://www.facom.ufms.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/UFMS_0.jpg",
+      "data/pic/UFMS_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Oxford",
+    "homepage": "http://www.cs.ox.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Oxford_0.jpg",
+      "data/pic/University of Oxford_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Crete",
+    "homepage": "http://users.ics.forth.gr",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Crete_0.jpg",
+      "data/pic/University of Crete_1.jpg"
+    ]
+  },
+  {
+    "institution": "HKUST",
+    "homepage": "https://www.cse.ust.hk",
+    "region": "asia",
+    "pic": [
+      "data/pic/HKUST_0.jpg",
+      "data/pic/HKUST_1.jpg"
+    ]
+  },
+  {
+    "institution": "NYU Shanghai",
+    "homepage": "http://nyu.edu",
+    "region": "asia",
+    "pic": [
+      "data/pic/NYU Shanghai_0.jpg",
+      "data/pic/NYU Shanghai_1.jpg"
+    ]
+  },
+  {
+    "institution": "TU Berlin",
+    "homepage": "https://www.tkn.tu-berlin.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/TU Berlin_0.jpg",
+      "data/pic/TU Berlin_1.jpg"
+    ]
+  },
+  {
+    "institution": "Old Dominion University",
+    "homepage": "http://www.cs.odu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Old Dominion University_0.jpg",
+      "data/pic/Old Dominion University_1.jpg"
+    ]
+  },
+  {
+    "institution": "California Institute of Technology",
+    "homepage": "http://www.cs.caltech.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/California Institute of Technology_0.jpg",
+      "data/pic/California Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Wisconsin - Milwaukee",
+    "homepage": "https://uwm.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Wisconsin - Milwaukee_0.jpg",
+      "data/pic/University of Wisconsin - Milwaukee_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Nebraska - Omaha",
+    "homepage": "https://www.unomaha.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Nebraska - Omaha_0.jpg",
+      "data/pic/University of Nebraska - Omaha_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Glasgow",
+    "homepage": "http://www.dcs.gla.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Glasgow_0.jpg",
+      "data/pic/University of Glasgow_1.jpg"
+    ]
+  },
+  {
+    "institution": "Chalmers University of Technology",
+    "homepage": "https://www.chalmers.se",
+    "region": "europe",
+    "pic": [
+      "data/pic/Chalmers University of Technology_0.jpg",
+      "data/pic/Chalmers University of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of California - Irvine",
+    "homepage": "http://www.ics.uci.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of California - Irvine_0.jpg",
+      "data/pic/University of California - Irvine_1.jpg"
+    ]
+  },
+  {
+    "institution": "Florida Institute of Technology",
+    "homepage": "https://www.fit.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Florida Institute of Technology_0.jpg",
+      "data/pic/Florida Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "Politecnico di Milano",
+    "homepage": "http://home.deib.polimi.it",
+    "region": "europe",
+    "pic": [
+      "data/pic/Politecnico di Milano_0.jpg",
+      "data/pic/Politecnico di Milano_1.jpg"
+    ]
+  },
+  {
+    "institution": "National University of Singapore",
+    "homepage": "https://www.comp.nus.edu.sg",
+    "region": "asia",
+    "pic": [
+      "data/pic/National University of Singapore_0.jpg",
+      "data/pic/National University of Singapore_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Roorkee",
+    "homepage": "http://www.iitr.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Roorkee_0.jpg",
+      "data/pic/IIT Roorkee_1.jpg"
+    ]
+  },
+  {
+    "institution": "TU Darmstadt",
+    "homepage": "https://www.trust.informatik.tu-darmstadt.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/TU Darmstadt_0.jpg",
+      "data/pic/TU Darmstadt_1.jpg"
+    ]
+  },
+  {
+    "institution": "UFRJ",
+    "homepage": "http://www.cos.ufrj.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/UFRJ_0.jpg",
+      "data/pic/UFRJ_1.jpg"
+    ]
+  },
+  {
+    "institution": "Stanford University",
+    "homepage": "http://www.aaronsidford.com",
+    "region": "usa",
+    "pic": [
+      "data/pic/Stanford University_0.jpg",
+      "data/pic/Stanford University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Hong Kong Baptist University",
+    "homepage": "http://www.comp.hkbu.edu.hk",
+    "region": "asia",
+    "pic": [
+      "data/pic/Hong Kong Baptist University_0.jpg",
+      "data/pic/Hong Kong Baptist University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Florida International University",
+    "homepage": "https://users.cs.fiu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Florida International University_0.jpg",
+      "data/pic/Florida International University_1.jpg"
+    ]
+  },
+  {
+    "institution": "KAIST",
+    "homepage": "http://uilab.kaist.ac.kr",
+    "region": "asia",
+    "pic": [
+      "data/pic/KAIST_0.jpg",
+      "data/pic/KAIST_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Southern California",
+    "homepage": "http://physics.usc.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Southern California_0.jpg",
+      "data/pic/University of Southern California_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Michigan",
+    "homepage": "http://www.alansonsample.com",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Michigan_0.jpg",
+      "data/pic/University of Michigan_1.jpg"
+    ]
+  },
+  {
+    "institution": "Emory University",
+    "homepage": "http://www.mathcs.emory.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Emory University_0.jpg",
+      "data/pic/Emory University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Beihang University",
+    "homepage": "http://scse.buaa.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/Beihang University_0.jpg",
+      "data/pic/Beihang University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Southern Mississippi",
+    "homepage": "https://www.usm.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Southern Mississippi_0.jpg",
+      "data/pic/University of Southern Mississippi_1.jpg"
+    ]
+  },
+  {
+    "institution": "DAIICT",
+    "homepage": "http://www.daiict.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/DAIICT_0.jpg",
+      "data/pic/DAIICT_1.jpg"
+    ]
+  },
+  {
+    "institution": "Clemson University",
+    "homepage": "http://www.alexherzog.net",
+    "region": "usa",
+    "pic": [
+      "data/pic/Clemson University_0.jpg",
+      "data/pic/Clemson University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Pisa",
+    "homepage": "http://www.di.unipi.it",
+    "region": " europe",
+    "pic": [
+      "data/pic/University of Pisa_0.jpg",
+      "data/pic/University of Pisa_1.jpg"
+    ]
+  },
+  {
+    "institution": "Virginia Commonwealth University",
+    "homepage": "http://www.people.vcu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Virginia Commonwealth University_0.jpg",
+      "data/pic/Virginia Commonwealth University_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIIT Bangalore",
+    "homepage": "http://amitchattopadhyay.weebly.com",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIIT Bangalore_0.jpg",
+      "data/pic/IIIT Bangalore_1.jpg"
+    ]
+  },
+  {
+    "institution": "Universidade NOVA de Lisboa",
+    "homepage": "http://nova-lincs.di.fct.unl.pt",
+    "region": "europe",
+    "pic": [
+      "data/pic/Universidade NOVA de Lisboa_0.jpg",
+      "data/pic/Universidade NOVA de Lisboa_1.jpg"
+    ]
+  },
+  {
+    "institution": "Binghamton University",
+    "homepage": "https://www.binghamton.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Binghamton University_0.jpg",
+      "data/pic/Binghamton University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Minnesota",
+    "homepage": "http://www-users.cs.umn.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Minnesota_0.jpg",
+      "data/pic/University of Minnesota_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Rochester",
+    "homepage": "http://www.cs.rochester.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Rochester_0.jpg",
+      "data/pic/University of Rochester_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Arizona",
+    "homepage": "http://www.cs.arizona.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Arizona_0.jpg",
+      "data/pic/University of Arizona_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of California - Santa Cruz",
+    "homepage": "https://aguhatha.github.io",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of California - Santa Cruz_0.jpg",
+      "data/pic/University of California - Santa Cruz_1.jpg"
+    ]
+  },
+  {
+    "institution": "Hasso Plattner Institute",
+    "homepage": "https://hpi.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/Hasso Plattner Institute_0.jpg",
+      "data/pic/Hasso Plattner Institute_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Sydney",
+    "homepage": "https://sydney.edu.au",
+    "region": "australasia",
+    "pic": [
+      "data/pic/University of Sydney_0.jpg",
+      "data/pic/University of Sydney_1.jpg"
+    ]
+  },
+  {
+    "institution": "Georgia Institute of Technology",
+    "homepage": "http://www.cc.gatech.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Georgia Institute of Technology_0.jpg",
+      "data/pic/Georgia Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Arkansas - Little Rock",
+    "homepage": "https://ualr.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Arkansas - Little Rock_0.jpg",
+      "data/pic/University of Arkansas - Little Rock_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Melbourne",
+    "homepage": "http://people.eng.unimelb.edu.au",
+    "region": "australasia",
+    "pic": [
+      "data/pic/University of Melbourne_0.jpg",
+      "data/pic/University of Melbourne_1.jpg"
+    ]
+  },
+  {
+    "institution": "Wuhan University",
+    "homepage": "http://cs.whu.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/Wuhan University_0.jpg",
+      "data/pic/Wuhan University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of South Florida",
+    "homepage": "http://www.cse.usf.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of South Florida_0.jpg",
+      "data/pic/University of South Florida_1.jpg"
+    ]
+  },
+  {
+    "institution": "Stellenbosch University",
+    "homepage": "http://www.cs.sun.ac.za",
+    "region": "africa",
+    "pic": [
+      "data/pic/Stellenbosch University_0.jpg",
+      "data/pic/Stellenbosch University_1.jpg"
+    ]
+  },
+  {
+    "institution": "RMIT University",
+    "homepage": "https://www.rmit.edu.au",
+    "region": "australasia",
+    "pic": [
+      "data/pic/RMIT University_0.jpg",
+      "data/pic/RMIT University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Massachusetts Lowell",
+    "homepage": "http://www.cs.uml.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Massachusetts Lowell_0.jpg",
+      "data/pic/University of Massachusetts Lowell_1.jpg"
+    ]
+  },
+  {
+    "institution": "Ohio State University",
+    "homepage": "https://cse.osu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Ohio State University_0.jpg",
+      "data/pic/Ohio State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Western University",
+    "homepage": "https://www.csd.uwo.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/Western University_0.jpg",
+      "data/pic/Western University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Scuola Superiore Sant'Anna",
+    "homepage": "http://retis.sssup.it",
+    "region": "europe",
+    "pic": [
+      "data/pic/Scuola Superiore Sant'Anna_0.jpg",
+      "data/pic/Scuola Superiore Sant'Anna_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Konstanz",
+    "homepage": "https://www.cvia.uni-konstanz.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Konstanz_0.jpg",
+      "data/pic/University of Konstanz_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of North Texas",
+    "homepage": "http://www.cse.unt.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of North Texas_0.jpg",
+      "data/pic/University of North Texas_1.jpg"
+    ]
+  },
+  {
+    "institution": "FURG Federal University of Rio Grande",
+    "homepage": "http://www.werhli.c3.furg.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/FURG Federal University of Rio Grande_0.jpg",
+      "data/pic/FURG Federal University of Rio Grande_1.jpg"
+    ]
+  },
+  {
+    "institution": "Bundeswehr University Munich",
+    "homepage": "https://www.unibw.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/Bundeswehr University Munich_0.jpg",
+      "data/pic/Bundeswehr University Munich_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Ottawa",
+    "homepage": "http://www.site.uottawa.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of Ottawa_0.jpg",
+      "data/pic/University of Ottawa_1.jpg"
+    ]
+  },
+  {
+    "institution": "Zhejiang University",
+    "homepage": "http://mypage.zju.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/Zhejiang University_0.jpg",
+      "data/pic/Zhejiang University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Sannio",
+    "homepage": "https://www.unisannio.it",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Sannio_0.jpg",
+      "data/pic/University of Sannio_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of British Columbia",
+    "homepage": "http://www.cs.ubc.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of British Columbia_0.jpg",
+      "data/pic/University of British Columbia_1.jpg"
+    ]
+  },
+  {
+    "institution": "MPI-ISP",
+    "homepage": "none",
+    "region": "usa",
+    "pic": [
+      "data/pic/MPI-ISP_0.jpg",
+      "data/pic/MPI-ISP_1.jpg"
+    ]
+  },
+  {
+    "institution": "New York University",
+    "homepage": "http://cs.nyu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/New York University_0.jpg",
+      "data/pic/New York University_1.jpg"
+    ]
+  },
+  {
+    "institution": "USP",
+    "homepage": "http://www.ime.usp.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/USP_0.jpg",
+      "data/pic/USP_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Tokyo",
+    "homepage": "http://www.nii.ac.jp",
+    "region": "asia",
+    "pic": [
+      "data/pic/University of Tokyo_0.jpg",
+      "data/pic/University of Tokyo_1.jpg"
+    ]
+  },
+  {
+    "institution": "Chinese University of Hong Kong",
+    "homepage": "http://www.cse.cuhk.edu.hk",
+    "region": "asia",
+    "pic": [
+      "data/pic/Chinese University of Hong Kong_0.jpg",
+      "data/pic/Chinese University of Hong Kong_1.jpg"
+    ]
+  },
+  {
+    "institution": "National Tsing Hua University",
+    "homepage": "http://clark.cs.nthu.edu.tw",
+    "region": "asia",
+    "pic": [
+      "data/pic/National Tsing Hua University_0.jpg",
+      "data/pic/National Tsing Hua University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Hong Kong",
+    "homepage": "https://i.cs.hku.hk",
+    "region": "asia",
+    "pic": [
+      "data/pic/University of Hong Kong_0.jpg",
+      "data/pic/University of Hong Kong_1.jpg"
+    ]
+  },
+  {
+    "institution": "Seoul National University",
+    "homepage": "https://csap.snu.ac.kr",
+    "region": "asia",
+    "pic": [
+      "data/pic/Seoul National University_0.jpg",
+      "data/pic/Seoul National University_1.jpg"
+    ]
+  },
+  {
+    "institution": "TU Dresden",
+    "homepage": "https://www.cfaed.tu-dresden.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/TU Dresden_0.jpg",
+      "data/pic/TU Dresden_1.jpg"
+    ]
+  },
+  {
+    "institution": "Auburn University",
+    "homepage": "http://www.eng.auburn.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Auburn University_0.jpg",
+      "data/pic/Auburn University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Shanghai Jiao Tong University",
+    "homepage": "http://bcmi.sjtu.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/Shanghai Jiao Tong University_0.jpg",
+      "data/pic/Shanghai Jiao Tong University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of California - Davis",
+    "homepage": "http://thakur.cs.ucdavis.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of California - Davis_0.jpg",
+      "data/pic/University of California - Davis_1.jpg"
+    ]
+  },
+  {
+    "institution": "KTH Royal Institute of Technology",
+    "homepage": "https://people.kth.se",
+    "region": "europe",
+    "pic": [
+      "data/pic/KTH Royal Institute of Technology_0.jpg",
+      "data/pic/KTH Royal Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "Montana State University",
+    "homepage": "https://www.cs.montana.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Montana State University_0.jpg",
+      "data/pic/Montana State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Qatar University",
+    "homepage": "http://www.qu.edu.qa",
+    "region": "asia",
+    "pic": [
+      "data/pic/Qatar University_0.jpg",
+      "data/pic/Qatar University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Syracuse University",
+    "homepage": "http://eng-cs.syr.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Syracuse University_0.jpg",
+      "data/pic/Syracuse University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Duke University",
+    "homepage": "https://ece.duke.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Duke University_0.jpg",
+      "data/pic/Duke University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Simon Fraser University",
+    "homepage": "http://www.cs.sfu.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/Simon Fraser University_0.jpg",
+      "data/pic/Simon Fraser University_1.jpg"
+    ]
+  },
+  {
+    "institution": "McMaster University",
+    "homepage": "http://www.cas.mcmaster.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/McMaster University_0.jpg",
+      "data/pic/McMaster University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of California - Riverside",
+    "homepage": "http://www-users.cs.umn.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of California - Riverside_0.jpg",
+      "data/pic/University of California - Riverside_1.jpg"
+    ]
+  },
+  {
+    "institution": "West Virginia University",
+    "homepage": "https://www.statler.wvu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/West Virginia University_0.jpg",
+      "data/pic/West Virginia University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Northwestern University",
+    "homepage": "http://www.mccormick.northwestern.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Northwestern University_0.jpg",
+      "data/pic/Northwestern University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Brandenburg University of Technology",
+    "homepage": "https://www.b-tu.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/Brandenburg University of Technology_0.jpg",
+      "data/pic/Brandenburg University of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "New Mexico Tech",
+    "homepage": "http://nmt.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/New Mexico Tech_0.jpg",
+      "data/pic/New Mexico Tech_1.jpg"
+    ]
+  },
+  {
+    "institution": "Queen’s University",
+    "homepage": "http://www.cs.queensu.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/Queen’s University_0.jpg",
+      "data/pic/Queen’s University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Towson University",
+    "homepage": "https://www.towson.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Towson University_0.jpg",
+      "data/pic/Towson University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Colorado Boulder",
+    "homepage": "https://www.colorado.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Colorado Boulder_0.jpg",
+      "data/pic/University of Colorado Boulder_1.jpg"
+    ]
+  },
+  {
+    "institution": "Tilburg University",
+    "homepage": "https://ilk.uvt.nl",
+    "region": "europe",
+    "pic": [
+      "data/pic/Tilburg University_0.jpg",
+      "data/pic/Tilburg University_1.jpg"
+    ]
+  },
+  {
+    "institution": "UFMG",
+    "homepage": "http://homepages.dcc.ufmg.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/UFMG_0.jpg",
+      "data/pic/UFMG_1.jpg"
+    ]
+  },
+  {
+    "institution": "Vanderbilt University",
+    "homepage": "http://www.dre.vanderbilt.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Vanderbilt University_0.jpg",
+      "data/pic/Vanderbilt University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Johns Hopkins University",
+    "homepage": "https://www.cs.jhu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Johns Hopkins University_0.jpg",
+      "data/pic/Johns Hopkins University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Hanyang University",
+    "homepage": "http://dcc.hanyang.ac.kr",
+    "region": "asia",
+    "pic": [
+      "data/pic/Hanyang University_0.jpg",
+      "data/pic/Hanyang University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Alabama - Huntsville",
+    "homepage": "https://www.uah.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Alabama - Huntsville_0.jpg",
+      "data/pic/University of Alabama - Huntsville_1.jpg"
+    ]
+  },
+  {
+    "institution": "Claremont Graduate University",
+    "homepage": "https://www.cgu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Claremont Graduate University_0.jpg",
+      "data/pic/Claremont Graduate University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Universidad de Chile",
+    "homepage": "http://aidanhogan.com",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/Universidad de Chile_0.jpg",
+      "data/pic/Universidad de Chile_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Hyderabad",
+    "homepage": "http://www.iith.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Hyderabad_0.jpg",
+      "data/pic/IIT Hyderabad_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Technology Sydney",
+    "homepage": "https://www.uts.edu.au",
+    "region": "australasia",
+    "pic": [
+      "data/pic/University of Technology Sydney_0.jpg",
+      "data/pic/University of Technology Sydney_1.jpg"
+    ]
+  },
+  {
+    "institution": "Mississippi State University",
+    "homepage": "http://web.cse.msstate.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Mississippi State University_0.jpg",
+      "data/pic/Mississippi State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of New Hampshire",
+    "homepage": "http://ccom.unh.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of New Hampshire_0.jpg",
+      "data/pic/University of New Hampshire_1.jpg"
+    ]
+  },
+  {
+    "institution": "UNSW",
+    "homepage": "http://www.cse.unsw.edu.au",
+    "region": "australasia",
+    "pic": [
+      "data/pic/UNSW_0.jpg",
+      "data/pic/UNSW_1.jpg"
+    ]
+  },
+  {
+    "institution": "ETH Zurich",
+    "homepage": "http://www.netsec.ethz.ch",
+    "region": "europe",
+    "pic": [
+      "data/pic/ETH Zurich_0.jpg",
+      "data/pic/ETH Zurich_1.jpg"
+    ]
+  },
+  {
+    "institution": "Boğaziçi University",
+    "homepage": "https://www.cmpe.boun.edu.tr",
+    "region": "europe",
+    "pic": [
+      "data/pic/Boğaziçi University_0.jpg",
+      "data/pic/Boğaziçi University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Univ. of Maryland - Baltimore County",
+    "homepage": "http://www.csee.umbc.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Univ. of Maryland - Baltimore County_0.jpg",
+      "data/pic/Univ. of Maryland - Baltimore County_1.jpg"
+    ]
+  },
+  {
+    "institution": "Qatar Computing Research Institute",
+    "homepage": "http://www.qcri.org",
+    "region": "asia",
+    "pic": [
+      "data/pic/Qatar Computing Research Institute_0.jpg",
+      "data/pic/Qatar Computing Research Institute_1.jpg"
+    ]
+  },
+  {
+    "institution": "LUMS",
+    "homepage": "http://web.lums.edu.pk",
+    "region": "asia",
+    "pic": [
+      "data/pic/LUMS_0.jpg",
+      "data/pic/LUMS_1.jpg"
+    ]
+  },
+  {
+    "institution": "UFF",
+    "homepage": "http://www.ic.uff.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/UFF_0.jpg",
+      "data/pic/UFF_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Wroclaw",
+    "homepage": "http://www.ii.uni.wroc.pl",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Wroclaw_0.jpg",
+      "data/pic/University of Wroclaw_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Maine",
+    "homepage": "https://spia.umaine.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Maine_0.jpg",
+      "data/pic/University of Maine_1.jpg"
+    ]
+  },
+  {
+    "institution": "Maastricht University",
+    "homepage": "https://sites.google.com",
+    "region": "europe",
+    "pic": [
+      "data/pic/Maastricht University_0.jpg",
+      "data/pic/Maastricht University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Izmir Institute of Technology",
+    "homepage": "http://ceng.iyte.edu.tr",
+    "region": "europe",
+    "pic": [
+      "data/pic/Izmir Institute of Technology_0.jpg",
+      "data/pic/Izmir Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "Bielefeld University",
+    "homepage": "https://www.techfak.uni-bielefeld.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/Bielefeld University_0.jpg",
+      "data/pic/Bielefeld University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Tulsa",
+    "homepage": "https://faculty.utulsa.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Tulsa_0.jpg",
+      "data/pic/University of Tulsa_1.jpg"
+    ]
+  },
+  {
+    "institution": "POSTECH",
+    "homepage": "http://cse.postech.ac.kr",
+    "region": "asia",
+    "pic": [
+      "data/pic/POSTECH_0.jpg",
+      "data/pic/POSTECH_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Guelph",
+    "homepage": "https://www.uoguelph.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of Guelph_0.jpg",
+      "data/pic/University of Guelph_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of California - Berkeley",
+    "homepage": "https://cs.illinois.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of California - Berkeley_0.jpg",
+      "data/pic/University of California - Berkeley_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Salzburg",
+    "homepage": "https://hci.sbg.ac.at",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Salzburg_0.jpg",
+      "data/pic/University of Salzburg_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Liverpool",
+    "homepage": "https://www.csc.liv.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Liverpool_0.jpg",
+      "data/pic/University of Liverpool_1.jpg"
+    ]
+  },
+  {
+    "institution": "Georgetown University",
+    "homepage": "http://people.cs.georgetown.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Georgetown University_0.jpg",
+      "data/pic/Georgetown University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Chinese Academy of Sciences",
+    "homepage": "http://people.ucas.ac.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/Chinese Academy of Sciences_0.jpg",
+      "data/pic/Chinese Academy of Sciences_1.jpg"
+    ]
+  },
+  {
+    "institution": "Southern Methodist University",
+    "homepage": "https://datascience.smu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Southern Methodist University_0.jpg",
+      "data/pic/Southern Methodist University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Freie Universitaet Berlin",
+    "homepage": "http://page.mi.fu-berlin.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/Freie Universitaet Berlin_0.jpg",
+      "data/pic/Freie Universitaet Berlin_1.jpg"
+    ]
+  },
+  {
+    "institution": "York University",
+    "homepage": "http://www.cse.yorku.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/York University_0.jpg",
+      "data/pic/York University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Miami",
+    "homepage": "http://www.cs.miami.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Miami_0.jpg",
+      "data/pic/University of Miami_1.jpg"
+    ]
+  },
+  {
+    "institution": "McGill University",
+    "homepage": "http://www.math.mcgill.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/McGill University_0.jpg",
+      "data/pic/McGill University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Korea University",
+    "homepage": "http://kucg.korea.ac.kr",
+    "region": "asia",
+    "pic": [
+      "data/pic/Korea University_0.jpg",
+      "data/pic/Korea University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Adelaide",
+    "homepage": "http://www.adelaide.edu.au",
+    "region": "australasia",
+    "pic": [
+      "data/pic/University of Adelaide_0.jpg",
+      "data/pic/University of Adelaide_1.jpg"
+    ]
+  },
+  {
+    "institution": "Oregon State University",
+    "homepage": "http://eecs.oregonstate.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Oregon State University_0.jpg",
+      "data/pic/Oregon State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Oklahoma",
+    "homepage": "http://www.ou.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Oklahoma_0.jpg",
+      "data/pic/University of Oklahoma_1.jpg"
+    ]
+  },
+  {
+    "institution": "Queen Mary University of London",
+    "homepage": "http://www.eecs.qmul.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/Queen Mary University of London_0.jpg",
+      "data/pic/Queen Mary University of London_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Buenos Aires",
+    "homepage": "http://habla.dc.uba.ar",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/University of Buenos Aires_0.jpg",
+      "data/pic/University of Buenos Aires_1.jpg"
+    ]
+  },
+  {
+    "institution": "Concordia University",
+    "homepage": "http://users.encs.concordia.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/Concordia University_0.jpg",
+      "data/pic/Concordia University_1.jpg"
+    ]
+  },
+  {
+    "institution": "VU Amsterdam",
+    "homepage": "http://www.cs.vu.nl",
+    "region": "europe",
+    "pic": [
+      "data/pic/VU Amsterdam_0.jpg",
+      "data/pic/VU Amsterdam_1.jpg"
+    ]
+  },
+  {
+    "institution": "ETS Montreal",
+    "homepage": "http://etsmtl.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/ETS Montreal_0.jpg",
+      "data/pic/ETS Montreal_1.jpg"
+    ]
+  },
+  {
+    "institution": "AUEB",
+    "homepage": "http://nes.aueb.gr",
+    "region": "europe",
+    "pic": [
+      "data/pic/AUEB_0.jpg",
+      "data/pic/AUEB_1.jpg"
+    ]
+  },
+  {
+    "institution": "Drexel University",
+    "homepage": "http://drexel.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Drexel University_0.jpg",
+      "data/pic/Drexel University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Pennsylvania State University",
+    "homepage": "https://aasheeshkolli.com",
+    "region": "usa",
+    "pic": [
+      "data/pic/Pennsylvania State University_0.jpg",
+      "data/pic/Pennsylvania State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Nanyang Technological University",
+    "homepage": "http://www.ntu.edu.sg",
+    "region": "asia",
+    "pic": [
+      "data/pic/Nanyang Technological University_0.jpg",
+      "data/pic/Nanyang Technological University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Warsaw",
+    "homepage": "http://www.mimuw.edu.pl",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Warsaw_0.jpg",
+      "data/pic/University of Warsaw_1.jpg"
+    ]
+  },
+  {
+    "institution": "CRIStAL",
+    "homepage": "https://www.cristal.univ-lille.fr",
+    "region": "europe",
+    "pic": [
+      "data/pic/CRIStAL_0.jpg",
+      "data/pic/CRIStAL_1.jpg"
+    ]
+  },
+  {
+    "institution": "PUC-RS",
+    "homepage": "http://www.inf.pucrs.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/PUC-RS_0.jpg",
+      "data/pic/PUC-RS_1.jpg"
+    ]
+  },
+  {
+    "institution": "Victoria University of Wellington",
+    "homepage": "https://ecs.victoria.ac.nz",
+    "region": "australasia",
+    "pic": [
+      "data/pic/Victoria University of Wellington_0.jpg",
+      "data/pic/Victoria University of Wellington_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Massachusetts Boston",
+    "homepage": "https://www.umb.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Massachusetts Boston_0.jpg",
+      "data/pic/University of Massachusetts Boston_1.jpg"
+    ]
+  },
+  {
+    "institution": "University College London",
+    "homepage": "http://www0.cs.ucl.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University College London_0.jpg",
+      "data/pic/University College London_1.jpg"
+    ]
+  },
+  {
+    "institution": "Middlesex University",
+    "homepage": "https://www.mdx.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/Middlesex University_0.jpg",
+      "data/pic/Middlesex University_1.jpg"
+    ]
+  },
+  {
+    "institution": "De La Salle University",
+    "homepage": "http://www.a-transposable-element.com",
+    "region": "asia",
+    "pic": [
+      "data/pic/De La Salle University_0.jpg",
+      "data/pic/De La Salle University_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Mandi",
+    "homepage": "http://faculty.iitmandi.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Mandi_0.jpg",
+      "data/pic/IIT Mandi_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Kharagpur",
+    "homepage": "http://cse.iitkgp.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Kharagpur_0.jpg",
+      "data/pic/IIT Kharagpur_1.jpg"
+    ]
+  },
+  {
+    "institution": "National Taiwan University",
+    "homepage": "https://www.csie.ntu.edu.tw",
+    "region": "asia",
+    "pic": [
+      "data/pic/National Taiwan University_0.jpg",
+      "data/pic/National Taiwan University_1.jpg"
+    ]
+  },
+  {
+    "institution": "NTUA",
+    "homepage": "http://cvsp.cs.ntua.gr",
+    "region": "europe",
+    "pic": [
+      "data/pic/NTUA_0.jpg",
+      "data/pic/NTUA_1.jpg"
+    ]
+  },
+  {
+    "institution": "Aalto University",
+    "homepage": "https://users.aalto.fi",
+    "region": "europe",
+    "pic": [
+      "data/pic/Aalto University_0.jpg",
+      "data/pic/Aalto University_1.jpg"
+    ]
+  },
+  {
+    "institution": "UNIST",
+    "homepage": "http://algo.unist.ac.kr",
+    "region": "asia",
+    "pic": [
+      "data/pic/UNIST_0.jpg",
+      "data/pic/UNIST_1.jpg"
+    ]
+  },
+  {
+    "institution": "IMSc",
+    "homepage": "http://www.imsc.res.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IMSc_0.jpg",
+      "data/pic/IMSc_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Salerno",
+    "homepage": "http://old.di.unisa.it",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Salerno_0.jpg",
+      "data/pic/University of Salerno_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIIT Hyderabad",
+    "homepage": "https://www.iiit.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIIT Hyderabad_0.jpg",
+      "data/pic/IIIT Hyderabad_1.jpg"
+    ]
+  },
+  {
+    "institution": "Nova Southeastern University",
+    "homepage": "https://cec.nova.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Nova Southeastern University_0.jpg",
+      "data/pic/Nova Southeastern University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Harbin Institute of Technology",
+    "homepage": "http://ir.hit.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/Harbin Institute of Technology_0.jpg",
+      "data/pic/Harbin Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "Oakland University",
+    "homepage": "http://secs.oakland.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Oakland University_0.jpg",
+      "data/pic/Oakland University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Kyoto University",
+    "homepage": "http://ssuopt.amp.i.kyoto-u.ac.jp",
+    "region": "asia",
+    "pic": [
+      "data/pic/Kyoto University_0.jpg",
+      "data/pic/Kyoto University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Worcester Polytechnic Institute",
+    "homepage": "http://www.wpi.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Worcester Polytechnic Institute_0.jpg",
+      "data/pic/Worcester Polytechnic Institute_1.jpg"
+    ]
+  },
+  {
+    "institution": "Michigan Technological University",
+    "homepage": "https://www.mtu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Michigan Technological University_0.jpg",
+      "data/pic/Michigan Technological University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Shandong University",
+    "homepage": "http://irc.cs.sdu.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/Shandong University_0.jpg",
+      "data/pic/Shandong University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Carleton University",
+    "homepage": "http://people.scs.carleton.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/Carleton University_0.jpg",
+      "data/pic/Carleton University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Hacettepe University",
+    "homepage": "https://web.cs.hacettepe.edu.tr",
+    "region": "europe",
+    "pic": [
+      "data/pic/Hacettepe University_0.jpg",
+      "data/pic/Hacettepe University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Central Florida",
+    "homepage": "http://cs.ucf.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Central Florida_0.jpg",
+      "data/pic/University of Central Florida_1.jpg"
+    ]
+  },
+  {
+    "institution": "Columbia University",
+    "homepage": "http://datascience.columbia.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Columbia University_0.jpg",
+      "data/pic/Columbia University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University at Albany - SUNY",
+    "homepage": "https://www.albany.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University at Albany - SUNY_0.jpg",
+      "data/pic/University at Albany - SUNY_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Colorado - Denver",
+    "homepage": "http://www.ucdenver.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Colorado - Denver_0.jpg",
+      "data/pic/University of Colorado - Denver_1.jpg"
+    ]
+  },
+  {
+    "institution": "Ecole Normale Superieure de Cachan",
+    "homepage": "http://www.lsv.ens-cachan.fr",
+    "region": "europe",
+    "pic": [
+      "data/pic/Ecole Normale Superieure de Cachan_0.jpg",
+      "data/pic/Ecole Normale Superieure de Cachan_1.jpg"
+    ]
+  },
+  {
+    "institution": "Bilkent University",
+    "homepage": "http://ciceklab.cs.bilkent.edu.tr",
+    "region": "europe",
+    "pic": [
+      "data/pic/Bilkent University_0.jpg",
+      "data/pic/Bilkent University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Groningen",
+    "homepage": "http://antoniotor.al",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Groningen_0.jpg",
+      "data/pic/University of Groningen_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Auckland",
+    "homepage": "https://www.cs.auckland.ac.nz",
+    "region": "australasia",
+    "pic": [
+      "data/pic/University of Auckland_0.jpg",
+      "data/pic/University of Auckland_1.jpg"
+    ]
+  },
+  {
+    "institution": "NJIT",
+    "homepage": "http://cs.njit.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/NJIT_0.jpg",
+      "data/pic/NJIT_1.jpg"
+    ]
+  },
+  {
+    "institution": "Universidade de Brasília",
+    "homepage": "http://cic.unb.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/Universidade de Brasília_0.jpg",
+      "data/pic/Universidade de Brasília_1.jpg"
+    ]
+  },
+  {
+    "institution": "NTNU",
+    "homepage": "https://www.ntnu.edu",
+    "region": "europe",
+    "pic": [
+      "data/pic/NTNU_0.jpg",
+      "data/pic/NTNU_1.jpg"
+    ]
+  },
+  {
+    "institution": "Western Michigan University",
+    "homepage": "https://www.cs.wmich.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Western Michigan University_0.jpg",
+      "data/pic/Western Michigan University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Friedrich Schiller University Jena",
+    "homepage": "http://fusion.cs.uni-jena.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/Friedrich Schiller University Jena_0.jpg",
+      "data/pic/Friedrich Schiller University Jena_1.jpg"
+    ]
+  },
+  {
+    "institution": "University at Buffalo",
+    "homepage": "http://sariyuce.com",
+    "region": "usa",
+    "pic": [
+      "data/pic/University at Buffalo_0.jpg",
+      "data/pic/University at Buffalo_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Pennsylvania",
+    "homepage": "http://www.cis.upenn.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Pennsylvania_0.jpg",
+      "data/pic/University of Pennsylvania_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Virginia",
+    "homepage": "https://engineering.virginia.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Virginia_0.jpg",
+      "data/pic/University of Virginia_1.jpg"
+    ]
+  },
+  {
+    "institution": "NWPU",
+    "homepage": "http://www.escience.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/NWPU_0.jpg",
+      "data/pic/NWPU_1.jpg"
+    ]
+  },
+  {
+    "institution": "Sharif University of Technology",
+    "homepage": "http://sharif.edu",
+    "region": "asia",
+    "pic": [
+      "data/pic/Sharif University of Technology_0.jpg",
+      "data/pic/Sharif University of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Washington",
+    "homepage": "http://faculty.washington.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Washington_0.jpg",
+      "data/pic/University of Washington_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Tartu",
+    "homepage": "https://www.ut.ee",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Tartu_0.jpg",
+      "data/pic/University of Tartu_1.jpg"
+    ]
+  },
+  {
+    "institution": "American University of Beirut",
+    "homepage": "http://staff.aub.edu.lb",
+    "region": "asia",
+    "pic": [
+      "data/pic/American University of Beirut_0.jpg",
+      "data/pic/American University of Beirut_1.jpg"
+    ]
+  },
+  {
+    "institution": "Florida Atlantic University",
+    "homepage": "http://pire.fiu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Florida Atlantic University_0.jpg",
+      "data/pic/Florida Atlantic University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Mannheim",
+    "homepage": "https://www.uni-mannheim.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Mannheim_0.jpg",
+      "data/pic/University of Mannheim_1.jpg"
+    ]
+  },
+  {
+    "institution": "RWTH Aachen",
+    "homepage": "http://www.vision.rwth-aachen.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/RWTH Aachen_0.jpg",
+      "data/pic/RWTH Aachen_1.jpg"
+    ]
+  },
+  {
+    "institution": "TU Munich",
+    "homepage": "https://www-db.in.tum.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/TU Munich_0.jpg",
+      "data/pic/TU Munich_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Freiburg",
+    "homepage": "https://swt.informatik.uni-freiburg.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Freiburg_0.jpg",
+      "data/pic/University of Freiburg_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT (BHU) Varanasi",
+    "homepage": "http://www.iitbhu.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT (BHU) Varanasi_0.jpg",
+      "data/pic/IIT (BHU) Varanasi_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Surrey",
+    "homepage": "https://www.surrey.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Surrey_0.jpg",
+      "data/pic/University of Surrey_1.jpg"
+    ]
+  },
+  {
+    "institution": "Dartmouth College",
+    "homepage": "https://web.cs.dartmouth.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Dartmouth College_0.jpg",
+      "data/pic/Dartmouth College_1.jpg"
+    ]
+  },
+  {
+    "institution": "Yıldız Technical University",
+    "homepage": "https://www.ce.yildiz.edu.tr",
+    "region": "europe",
+    "pic": [
+      "data/pic/Yıldız Technical University_0.jpg",
+      "data/pic/Yıldız Technical University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Colorado State University",
+    "homepage": "http://www.cs.colostate.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Colorado State University_0.jpg",
+      "data/pic/Colorado State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "LMU Munich",
+    "homepage": "https://www.en.um.informatik.uni-muenchen.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/LMU Munich_0.jpg",
+      "data/pic/LMU Munich_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Bern",
+    "homepage": "http://www.ltg.unibe.ch",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Bern_0.jpg",
+      "data/pic/University of Bern_1.jpg"
+    ]
+  },
+  {
+    "institution": "Rochester Institute of Technology",
+    "homepage": "https://www.rit.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Rochester Institute of Technology_0.jpg",
+      "data/pic/Rochester Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "Illinois Institute of Technology",
+    "homepage": "https://science.iit.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Illinois Institute of Technology_0.jpg",
+      "data/pic/Illinois Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "Peking University",
+    "homepage": "https://www.pku.edu.cn/",
+    "region": "asia",
+    "pic": [
+      "data/pic/Peking University_0.jpg",
+      "data/pic/Peking University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Iowa State University",
+    "homepage": "http://www.cs.iastate.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Iowa State University_0.jpg",
+      "data/pic/Iowa State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "KU Leuven",
+    "homepage": "https://www.adalsimeone.me",
+    "region": "europe",
+    "pic": [
+      "data/pic/KU Leuven_0.jpg",
+      "data/pic/KU Leuven_1.jpg"
+    ]
+  },
+  {
+    "institution": "Fudan University",
+    "homepage": "https://chenbihuan.github.io",
+    "region": "asia",
+    "pic": [
+      "data/pic/Fudan University_0.jpg",
+      "data/pic/Fudan University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Louisville",
+    "homepage": "http://louisville.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Louisville_0.jpg",
+      "data/pic/University of Louisville_1.jpg"
+    ]
+  },
+  {
+    "institution": "Universidad de Zaragoza",
+    "homepage": "http://giga.cps.unizar.es",
+    "region": "europe",
+    "pic": [
+      "data/pic/Universidad de Zaragoza_0.jpg",
+      "data/pic/Universidad de Zaragoza_1.jpg"
+    ]
+  },
+  {
+    "institution": "IT University of Copenhagen",
+    "homepage": "https://pure.itu.dk",
+    "region": "europe",
+    "pic": [
+      "data/pic/IT University of Copenhagen_0.jpg",
+      "data/pic/IT University of Copenhagen_1.jpg"
+    ]
+  },
+  {
+    "institution": "George Mason University",
+    "homepage": "http://cs.gmu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/George Mason University_0.jpg",
+      "data/pic/George Mason University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Boise State University",
+    "homepage": "http://cs.boisestate.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Boise State University_0.jpg",
+      "data/pic/Boise State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Kanpur",
+    "homepage": "http://www.iitk.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Kanpur_0.jpg",
+      "data/pic/IIT Kanpur_1.jpg"
+    ]
+  },
+  {
+    "institution": "Heriot-Watt University",
+    "homepage": "https://www.hw.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/Heriot-Watt University_0.jpg",
+      "data/pic/Heriot-Watt University_1.jpg"
+    ]
+  },
+  {
+    "institution": "SUTD",
+    "homepage": "https://istd.sutd.edu.sg",
+    "region": "asia",
+    "pic": [
+      "data/pic/SUTD_0.jpg",
+      "data/pic/SUTD_1.jpg"
+    ]
+  },
+  {
+    "institution": "Virginia Tech",
+    "homepage": "http://people.cs.vt.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Virginia Tech_0.jpg",
+      "data/pic/Virginia Tech_1.jpg"
+    ]
+  },
+  {
+    "institution": "Purdue University",
+    "homepage": "https://www.cs.purdue.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Purdue University_0.jpg",
+      "data/pic/Purdue University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Bristol",
+    "homepage": "http://www.bristol.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Bristol_0.jpg",
+      "data/pic/University of Bristol_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Connecticut",
+    "homepage": "http://www.cse.uconn.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Connecticut_0.jpg",
+      "data/pic/University of Connecticut_1.jpg"
+    ]
+  },
+  {
+    "institution": "Tsinghua University",
+    "homepage": "http://iiis.tsinghua.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/Tsinghua University_0.jpg",
+      "data/pic/Tsinghua University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Kent",
+    "homepage": "https://www.cs.kent.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Kent_0.jpg",
+      "data/pic/University of Kent_1.jpg"
+    ]
+  },
+  {
+    "institution": "Universidad de los Andes",
+    "homepage": "https://profesores.virtual.uniandes.edu.co",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/Universidad de los Andes_0.jpg",
+      "data/pic/Universidad de los Andes_1.jpg"
+    ]
+  },
+  {
+    "institution": "New Mexico State University",
+    "homepage": "https://www.cs.nmsu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/New Mexico State University_0.jpg",
+      "data/pic/New Mexico State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "UFRGS",
+    "homepage": "http://inf.ufrgs.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/UFRGS_0.jpg",
+      "data/pic/UFRGS_1.jpg"
+    ]
+  },
+  {
+    "institution": "Texas A&M University",
+    "homepage": "http://people.tamu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Texas A&M University_0.jpg",
+      "data/pic/Texas A&M University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Chulalongkorn University",
+    "homepage": "http://pioneer.netserv.chula.ac.th",
+    "region": "asia",
+    "pic": [
+      "data/pic/Chulalongkorn University_0.jpg",
+      "data/pic/Chulalongkorn University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Victoria",
+    "homepage": "http://www.cs.uvic.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of Victoria_0.jpg",
+      "data/pic/University of Victoria_1.jpg"
+    ]
+  },
+  {
+    "institution": "Massachusetts Institute of Technology",
+    "homepage": "https://engineering.mit.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Massachusetts Institute of Technology_0.jpg",
+      "data/pic/Massachusetts Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "Bar-Ilan University",
+    "homepage": "http://u.cs.biu.ac.il",
+    "region": "europe",
+    "pic": [
+      "data/pic/Bar-Ilan University_0.jpg",
+      "data/pic/Bar-Ilan University_1.jpg"
+    ]
+  },
+  {
+    "institution": "UNICAMP",
+    "homepage": "http://www.ic.unicamp.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/UNICAMP_0.jpg",
+      "data/pic/UNICAMP_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Zurich",
+    "homepage": "http://www.ifi.uzh.ch",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Zurich_0.jpg",
+      "data/pic/University of Zurich_1.jpg"
+    ]
+  },
+  {
+    "institution": "Nanjing University",
+    "homepage": "https://cs.nju.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/Nanjing University_0.jpg",
+      "data/pic/Nanjing University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Alberta",
+    "homepage": "http://softwareprocess.es",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of Alberta_0.jpg",
+      "data/pic/University of Alberta_1.jpg"
+    ]
+  },
+  {
+    "institution": "KAUST",
+    "homepage": "https://www.kaust.edu.sa",
+    "region": "asia",
+    "pic": [
+      "data/pic/KAUST_0.jpg",
+      "data/pic/KAUST_1.jpg"
+    ]
+  },
+  {
+    "institution": "Université Jean Monnet",
+    "homepage": "http://www.create.uwe.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/Université Jean Monnet_0.jpg",
+      "data/pic/Université Jean Monnet_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIIT Delhi",
+    "homepage": "http://www.iiitd.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIIT Delhi_0.jpg",
+      "data/pic/IIIT Delhi_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Luxembourg",
+    "homepage": "http://wwwen.uni.lu",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Luxembourg_0.jpg",
+      "data/pic/University of Luxembourg_1.jpg"
+    ]
+  },
+  {
+    "institution": "North Dakota State University",
+    "homepage": "http://www.cs.ndsu.nodak.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/North Dakota State University_0.jpg",
+      "data/pic/North Dakota State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Calgary",
+    "homepage": "http://hcitang.org",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of Calgary_0.jpg",
+      "data/pic/University of Calgary_1.jpg"
+    ]
+  },
+  {
+    "institution": "DePaul University",
+    "homepage": "http://facweb.cs.depaul.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/DePaul University_0.jpg",
+      "data/pic/DePaul University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Australian National University",
+    "homepage": "https://cecs.anu.edu.au",
+    "region": "australasia",
+    "pic": [
+      "data/pic/Australian National University_0.jpg",
+      "data/pic/Australian National University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Cyprus University of Technology",
+    "homepage": "https://www.cut.ac.cy",
+    "region": "europe",
+    "pic": [
+      "data/pic/Cyprus University of Technology_0.jpg",
+      "data/pic/Cyprus University of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "Washington State University",
+    "homepage": "http://www.eecs.wsu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Washington State University_0.jpg",
+      "data/pic/Washington State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Lebanese American University",
+    "homepage": "http://sas.lau.edu.lb",
+    "region": "asia",
+    "pic": [
+      "data/pic/Lebanese American University_0.jpg",
+      "data/pic/Lebanese American University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Brown University",
+    "homepage": "http://cs.brown.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Brown University_0.jpg",
+      "data/pic/Brown University_1.jpg"
+    ]
+  },
+  {
+    "institution": "USP-ICMC",
+    "homepage": "http://icmc.usp.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/USP-ICMC_0.jpg",
+      "data/pic/USP-ICMC_1.jpg"
+    ]
+  },
+  {
+    "institution": "Universidade Federal de Viçosa",
+    "homepage": "http://www2.dpi.ufv.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/Universidade Federal de Viçosa_0.jpg",
+      "data/pic/Universidade Federal de Viçosa_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Amsterdam",
+    "homepage": "https://staff.science.uva.nl",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Amsterdam_0.jpg",
+      "data/pic/University of Amsterdam_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Ropar",
+    "homepage": "http://www.iitrpr.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Ropar_0.jpg",
+      "data/pic/IIT Ropar_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Alabama - Birmingham",
+    "homepage": "https://www.uab.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Alabama - Birmingham_0.jpg",
+      "data/pic/University of Alabama - Birmingham_1.jpg"
+    ]
+  },
+  {
+    "institution": "Utah State University",
+    "homepage": "http://digitalcommons.usu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Utah State University_0.jpg",
+      "data/pic/Utah State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Newcastle University",
+    "homepage": "https://www.newcastle.edu.au",
+    "region": "australasia",
+    "pic": [
+      "data/pic/Newcastle University_0.jpg",
+      "data/pic/Newcastle University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Passau",
+    "homepage": "http://www.schuller.it",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Passau_0.jpg",
+      "data/pic/University of Passau_1.jpg"
+    ]
+  },
+  {
+    "institution": "Univ. of Colorado Colorado Springs",
+    "homepage": "http://www.uccs.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Univ. of Colorado Colorado Springs_0.jpg",
+      "data/pic/Univ. of Colorado Colorado Springs_1.jpg"
+    ]
+  },
+  {
+    "institution": "Singapore Management University",
+    "homepage": "http://www.smu.edu.sg",
+    "region": "asia",
+    "pic": [
+      "data/pic/Singapore Management University_0.jpg",
+      "data/pic/Singapore Management University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Texas at Arlington",
+    "homepage": "http://ranger.uta.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Texas at Arlington_0.jpg",
+      "data/pic/University of Texas at Arlington_1.jpg"
+    ]
+  },
+  {
+    "institution": "Ryerson University",
+    "homepage": "www.scs.ryerson.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/Ryerson University_0.jpg",
+      "data/pic/Ryerson University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Cornell University",
+    "homepage": "http://adriansampson.net",
+    "region": "usa",
+    "pic": [
+      "data/pic/Cornell University_0.jpg",
+      "data/pic/Cornell University_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Gandhinagar",
+    "homepage": "http://www.iitgn.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Gandhinagar_0.jpg",
+      "data/pic/IIT Gandhinagar_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Wisconsin - Madison",
+    "homepage": "http://pages.cs.wisc.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Wisconsin - Madison_0.jpg",
+      "data/pic/University of Wisconsin - Madison_1.jpg"
+    ]
+  },
+  {
+    "institution": "IISc Bangalore",
+    "homepage": "http://www.csa.iisc.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IISc Bangalore_0.jpg",
+      "data/pic/IISc Bangalore_1.jpg"
+    ]
+  },
+  {
+    "institution": "Polytechnic University of Catalonia",
+    "homepage": "http://engineering.academickeys.com",
+    "region": "europe",
+    "pic": [
+      "data/pic/Polytechnic University of Catalonia_0.jpg",
+      "data/pic/Polytechnic University of Catalonia_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Western Australia",
+    "homepage": "http://staffhome.ecm.uwa.edu.au",
+    "region": "australasia",
+    "pic": [
+      "data/pic/University of Western Australia_0.jpg",
+      "data/pic/University of Western Australia_1.jpg"
+    ]
+  },
+  {
+    "institution": "TU Wien",
+    "homepage": "http://www.ifs.tuwien.ac.at",
+    "region": "europe",
+    "pic": [
+      "data/pic/TU Wien_0.jpg",
+      "data/pic/TU Wien_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Guwahati",
+    "homepage": "https://www.iitg.ernet.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Guwahati_0.jpg",
+      "data/pic/IIT Guwahati_1.jpg"
+    ]
+  },
+  {
+    "institution": "Monash University",
+    "homepage": "http://www.aamircheema.com",
+    "region": "australasia",
+    "pic": [
+      "data/pic/Monash University_0.jpg",
+      "data/pic/Monash University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Toronto",
+    "homepage": "http://www.moseslab.csb.utoronto.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of Toronto_0.jpg",
+      "data/pic/University of Toronto_1.jpg"
+    ]
+  },
+  {
+    "institution": "Wayne State University",
+    "homepage": "http://www.cs.wayne.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Wayne State University_0.jpg",
+      "data/pic/Wayne State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Kansas",
+    "homepage": "http://www.eecs.ku.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Kansas_0.jpg",
+      "data/pic/University of Kansas_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Delaware",
+    "homepage": "https://www.eecis.udel.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Delaware_0.jpg",
+      "data/pic/University of Delaware_1.jpg"
+    ]
+  },
+  {
+    "institution": "Portland State University",
+    "homepage": "http://web.cecs.pdx.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Portland State University_0.jpg",
+      "data/pic/Portland State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Vermont",
+    "homepage": "http://www.emba.uvm.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Vermont_0.jpg",
+      "data/pic/University of Vermont_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Nebraska",
+    "homepage": "http://cse.unl.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Nebraska_0.jpg",
+      "data/pic/University of Nebraska_1.jpg"
+    ]
+  },
+  {
+    "institution": "Princeton University",
+    "homepage": "https://www.cs.princeton.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Princeton University_0.jpg",
+      "data/pic/Princeton University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Temple University",
+    "homepage": "http://anduowang.github.io",
+    "region": "usa",
+    "pic": [
+      "data/pic/Temple University_0.jpg",
+      "data/pic/Temple University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Masdar Institute",
+    "homepage": "https://www.masdar.ac.ae",
+    "region": "asia",
+    "pic": [
+      "data/pic/Masdar Institute_0.jpg",
+      "data/pic/Masdar Institute_1.jpg"
+    ]
+  },
+  {
+    "institution": "Georgia State University",
+    "homepage": "http://cs.gsu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Georgia State University_0.jpg",
+      "data/pic/Georgia State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of South Carolina",
+    "homepage": "https://www.linkedin.com",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of South Carolina_0.jpg",
+      "data/pic/University of South Carolina_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Sussex",
+    "homepage": "http://www.sussex.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Sussex_0.jpg",
+      "data/pic/University of Sussex_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Georgia",
+    "homepage": "http://www.cs.uga.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Georgia_0.jpg",
+      "data/pic/University of Georgia_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Chicago",
+    "homepage": "http://www.potechin.org",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Chicago_0.jpg",
+      "data/pic/University of Chicago_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Athens",
+    "homepage": "http://www.di.uoa.gr",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Athens_0.jpg",
+      "data/pic/University of Athens_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Cincinnati",
+    "homepage": "http://www.ece.uc.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Cincinnati_0.jpg",
+      "data/pic/University of Cincinnati_1.jpg"
+    ]
+  },
+  {
+    "institution": "National Cheng Kung University",
+    "homepage": "http://www.csie.ncku.edu.tw",
+    "region": "asia",
+    "pic": [
+      "data/pic/National Cheng Kung University_0.jpg",
+      "data/pic/National Cheng Kung University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Sabancı University",
+    "homepage": "http://people.sabanciuniv.edu",
+    "region": "europe",
+    "pic": [
+      "data/pic/Sabancı University_0.jpg",
+      "data/pic/Sabancı University_1.jpg"
+    ]
+  },
+  {
+    "institution": "CISPA Helmholtz Center",
+    "homepage": "https://www.st.cs.uni-saarland.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/CISPA Helmholtz Center_0.jpg",
+      "data/pic/CISPA Helmholtz Center_1.jpg"
+    ]
+  },
+  {
+    "institution": "MPI-INF",
+    "homepage": "https://www.mpi-inf.mpg.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/MPI-INF_0.jpg",
+      "data/pic/MPI-INF_1.jpg"
+    ]
+  },
+  {
+    "institution": "Koç University",
+    "homepage": "http://home.ku.edu.tr",
+    "region": "europe",
+    "pic": [
+      "data/pic/Koç University_0.jpg",
+      "data/pic/Koç University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Texas Tech University",
+    "homepage": "http://www.depts.ttu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Texas Tech University_0.jpg",
+      "data/pic/Texas Tech University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Massey University",
+    "homepage": "http://www.massey.ac.nz",
+    "region": "australasia",
+    "pic": [
+      "data/pic/Massey University_0.jpg",
+      "data/pic/Massey University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Copenhagen",
+    "homepage": "http://image.diku.dk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Copenhagen_0.jpg",
+      "data/pic/University of Copenhagen_1.jpg"
+    ]
+  },
+  {
+    "institution": "Arizona State University",
+    "homepage": "http://adamdoupe.com",
+    "region": "usa",
+    "pic": [
+      "data/pic/Arizona State University_0.jpg",
+      "data/pic/Arizona State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Bath",
+    "homepage": "http://www.bath.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Bath_0.jpg",
+      "data/pic/University of Bath_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Missouri - Kansas City",
+    "homepage": "http://umkc.academia.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Missouri - Kansas City_0.jpg",
+      "data/pic/University of Missouri - Kansas City_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of California - Los Angeles",
+    "homepage": "http://www.cs.ucla.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of California - Los Angeles_0.jpg",
+      "data/pic/University of California - Los Angeles_1.jpg"
+    ]
+  },
+  {
+    "institution": "Indiana State University",
+    "homepage": "http://cs.indstate.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Indiana State University_0.jpg",
+      "data/pic/Indiana State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Graz University of Technology",
+    "homepage": "http://www.ist.tugraz.at",
+    "region": "europe",
+    "pic": [
+      "data/pic/Graz University of Technology_0.jpg",
+      "data/pic/Graz University of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Würzburg",
+    "homepage": "http://www1.informatik.uni-wuerzburg.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Würzburg_0.jpg",
+      "data/pic/University of Würzburg_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of New Brunswick",
+    "homepage": "http://www.cs.unb.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of New Brunswick_0.jpg",
+      "data/pic/University of New Brunswick_1.jpg"
+    ]
+  },
+  {
+    "institution": "Northern Arizona University",
+    "homepage": "https://nau.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Northern Arizona University_0.jpg",
+      "data/pic/Northern Arizona University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Tokyo Institute of Technology",
+    "homepage": "http://konagaya-lab.com",
+    "region": "asia",
+    "pic": [
+      "data/pic/Tokyo Institute of Technology_0.jpg",
+      "data/pic/Tokyo Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "Tata Institute of Fundamental Research",
+    "homepage": "http://www.tcs.tifr.res.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/Tata Institute of Fundamental Research_0.jpg",
+      "data/pic/Tata Institute of Fundamental Research_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Pittsburgh",
+    "homepage": "http://people.cs.pitt.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Pittsburgh_0.jpg",
+      "data/pic/University of Pittsburgh_1.jpg"
+    ]
+  },
+  {
+    "institution": "PUC-RIO",
+    "homepage": "www.inf.puc-rio.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/PUC-RIO_0.jpg",
+      "data/pic/PUC-RIO_1.jpg"
+    ]
+  },
+  {
+    "institution": "Michigan State University",
+    "homepage": "http://www.cse.msu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Michigan State University_0.jpg",
+      "data/pic/Michigan State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Bocconi University",
+    "homepage": "http://didattica.unibocconi.eu",
+    "region": "europe",
+    "pic": [
+      "data/pic/Bocconi University_0.jpg",
+      "data/pic/Bocconi University_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Madras",
+    "homepage": "http://www.cse.iitm.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Madras_0.jpg",
+      "data/pic/IIT Madras_1.jpg"
+    ]
+  },
+  {
+    "institution": "IUPUI",
+    "homepage": "http://cs.iupui.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/IUPUI_0.jpg",
+      "data/pic/IUPUI_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Vienna",
+    "homepage": "https://cs.univie.ac.at",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Vienna_0.jpg",
+      "data/pic/University of Vienna_1.jpg"
+    ]
+  },
+  {
+    "institution": "Università della Svizzera italiana",
+    "homepage": "http://www.inf.usi.ch",
+    "region": "europe",
+    "pic": [
+      "data/pic/Università della Svizzera italiana_0.jpg",
+      "data/pic/Università della Svizzera italiana_1.jpg"
+    ]
+  },
+  {
+    "institution": "Yale University",
+    "homepage": "https://cpsc.yale.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Yale University_0.jpg",
+      "data/pic/Yale University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Saskatchewan",
+    "homepage": "https://www.cs.usask.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of Saskatchewan_0.jpg",
+      "data/pic/University of Saskatchewan_1.jpg"
+    ]
+  },
+  {
+    "institution": "Université libre de Bruxelles",
+    "homepage": "http://homepages.ulb.ac.be",
+    "region": "europe",
+    "pic": [
+      "data/pic/Université libre de Bruxelles_0.jpg",
+      "data/pic/Université libre de Bruxelles_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Molise",
+    "homepage": "http://docenti.unimol.it",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Molise_0.jpg",
+      "data/pic/University of Molise_1.jpg"
+    ]
+  },
+  {
+    "institution": "Tufts University",
+    "homepage": "http://www.cs.tufts.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Tufts University_0.jpg",
+      "data/pic/Tufts University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Cape Town",
+    "homepage": "http://www.meteck.org",
+    "region": "africa",
+    "pic": [
+      "data/pic/University of Cape Town_0.jpg",
+      "data/pic/University of Cape Town_1.jpg"
+    ]
+  },
+  {
+    "institution": "Tulane University",
+    "homepage": "http://www.cs.tulane.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Tulane University_0.jpg",
+      "data/pic/Tulane University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Memphis",
+    "homepage": "https://www.memphis.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Memphis_0.jpg",
+      "data/pic/University of Memphis_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Kentucky",
+    "homepage": "https://www.cs.uky.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Kentucky_0.jpg",
+      "data/pic/University of Kentucky_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Texas at Austin",
+    "homepage": "https://www.cs.utexas.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Texas at Austin_0.jpg",
+      "data/pic/University of Texas at Austin_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Otago",
+    "homepage": "http://www.cs.otago.ac.nz",
+    "region": "australasia",
+    "pic": [
+      "data/pic/University of Otago_0.jpg",
+      "data/pic/University of Otago_1.jpg"
+    ]
+  },
+  {
+    "institution": "Ruhr-University Bochum",
+    "homepage": "http://www.cits.rub.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/Ruhr-University Bochum_0.jpg",
+      "data/pic/Ruhr-University Bochum_1.jpg"
+    ]
+  },
+  {
+    "institution": "North Carolina State University",
+    "homepage": "http://www.ascafuro.com",
+    "region": "usa",
+    "pic": [
+      "data/pic/North Carolina State University_0.jpg",
+      "data/pic/North Carolina State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Stuttgart",
+    "homepage": "https://www.vis.uni-stuttgart.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Stuttgart_0.jpg",
+      "data/pic/University of Stuttgart_1.jpg"
+    ]
+  },
+  {
+    "institution": "Imperial College London",
+    "homepage": "https://www.imperial.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/Imperial College London_0.jpg",
+      "data/pic/Imperial College London_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of New Orleans",
+    "homepage": "http://www.cs.uno.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of New Orleans_0.jpg",
+      "data/pic/University of New Orleans_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Illinois at Chicago",
+    "homepage": "https://www.cs.uic.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Illinois at Chicago_0.jpg",
+      "data/pic/University of Illinois at Chicago_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Patna",
+    "homepage": "https://iitp.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Patna_0.jpg",
+      "data/pic/IIT Patna_1.jpg"
+    ]
+  },
+  {
+    "institution": "BITS Pilani",
+    "homepage": "http://www.bits-pilani.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/BITS Pilani_0.jpg",
+      "data/pic/BITS Pilani_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of North Carolina",
+    "homepage": "http://cs.unc.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of North Carolina_0.jpg",
+      "data/pic/University of North Carolina_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of York",
+    "homepage": "https://www-users.cs.york.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of York_0.jpg",
+      "data/pic/University of York_1.jpg"
+    ]
+  },
+  {
+    "institution": "JKU Linz",
+    "homepage": "https://www.jku.at",
+    "region": "europe",
+    "pic": [
+      "data/pic/JKU Linz_0.jpg",
+      "data/pic/JKU Linz_1.jpg"
+    ]
+  },
+  {
+    "institution": "Boston University",
+    "homepage": "http://www.cs.bu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Boston University_0.jpg",
+      "data/pic/Boston University_1.jpg"
+    ]
+  },
+  {
+    "institution": "TU Braunschweig",
+    "homepage": "https://www.tu-braunschweig.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/TU Braunschweig_0.jpg",
+      "data/pic/TU Braunschweig_1.jpg"
+    ]
+  },
+  {
+    "institution": "Lund University",
+    "homepage": "http://www.control.lth.se",
+    "region": "europe",
+    "pic": [
+      "data/pic/Lund University_0.jpg",
+      "data/pic/Lund University_1.jpg"
+    ]
+  },
+  {
+    "institution": "UFU",
+    "homepage": "http://www.facom.ufu.br",
+    "region": "southamerica",
+    "pic": [
+      "data/pic/UFU_0.jpg",
+      "data/pic/UFU_1.jpg"
+    ]
+  },
+  {
+    "institution": "Kansas State University",
+    "homepage": "http://people.cs.ksu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Kansas State University_0.jpg",
+      "data/pic/Kansas State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "UESTC",
+    "homepage": "http://faculty.uestc.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/UESTC_0.jpg",
+      "data/pic/UESTC_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Texas at Dallas",
+    "homepage": "http://www.utdallas.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Texas at Dallas_0.jpg",
+      "data/pic/University of Texas at Dallas_1.jpg"
+    ]
+  },
+  {
+    "institution": "Boston College",
+    "homepage": "http://www.cs.bc.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Boston College_0.jpg",
+      "data/pic/Boston College_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Canterbury",
+    "homepage": "http://www.cosc.canterbury.ac.nz",
+    "region": "australasia",
+    "pic": [
+      "data/pic/University of Canterbury_0.jpg",
+      "data/pic/University of Canterbury_1.jpg"
+    ]
+  },
+  {
+    "institution": "Oklahoma State University",
+    "homepage": "http://cs.okstate.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Oklahoma State University_0.jpg",
+      "data/pic/Oklahoma State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Brigham Young University",
+    "homepage": "https://cs.byu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Brigham Young University_0.jpg",
+      "data/pic/Brigham Young University_1.jpg"
+    ]
+  },
+  {
+    "institution": "EPFL",
+    "homepage": "https://people.epfl.ch",
+    "region": "europe",
+    "pic": [
+      "data/pic/EPFL_0.jpg",
+      "data/pic/EPFL_1.jpg"
+    ]
+  },
+  {
+    "institution": "UNC - Charlotte",
+    "homepage": "https://webpages.uncc.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/UNC - Charlotte_0.jpg",
+      "data/pic/UNC - Charlotte_1.jpg"
+    ]
+  },
+  {
+    "institution": "Shanghai Univ. of Finance and Economics",
+    "homepage": "http://cs.mcgill.ca",
+    "region": "asia",
+    "pic": [
+      "data/pic/Shanghai Univ. of Finance and Economics_0.jpg",
+      "data/pic/Shanghai Univ. of Finance and Economics_1.jpg"
+    ]
+  },
+  {
+    "institution": "Naval Postgraduate School",
+    "homepage": "http://faculty.nps.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Naval Postgraduate School_0.jpg",
+      "data/pic/Naval Postgraduate School_1.jpg"
+    ]
+  },
+  {
+    "institution": "Universidad Rey Juan Carlos",
+    "homepage": "http://grafo.etsii.urjc.es",
+    "region": "europe",
+    "pic": [
+      "data/pic/Universidad Rey Juan Carlos_0.jpg",
+      "data/pic/Universidad Rey Juan Carlos_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Notre Dame",
+    "homepage": "https://engineering.nd.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Notre Dame_0.jpg",
+      "data/pic/University of Notre Dame_1.jpg"
+    ]
+  },
+  {
+    "institution": "Indiana University",
+    "homepage": "http://www.cs.indiana.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Indiana University_0.jpg",
+      "data/pic/Indiana University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Montreal",
+    "homepage": "https://aaroncourville.wordpress.com",
+    "region": "canada",
+    "pic": [
+      "data/pic/University of Montreal_0.jpg",
+      "data/pic/University of Montreal_1.jpg"
+    ]
+  },
+  {
+    "institution": "Ecole Normale Superieure de Lyon",
+    "homepage": "http://www.ens-lyon.fr",
+    "region": "europe",
+    "pic": [
+      "data/pic/Ecole Normale Superieure de Lyon_0.jpg",
+      "data/pic/Ecole Normale Superieure de Lyon_1.jpg"
+    ]
+  },
+  {
+    "institution": "MPI-SWS",
+    "homepage": "https://people.mpi-sws.org",
+    "region": "europe",
+    "pic": [
+      "data/pic/MPI-SWS_0.jpg",
+      "data/pic/MPI-SWS_1.jpg"
+    ]
+  },
+  {
+    "institution": "College of William and Mary",
+    "homepage": "http://adwaitjog.github.io",
+    "region": "usa",
+    "pic": [
+      "data/pic/College of William and Mary_0.jpg",
+      "data/pic/College of William and Mary_1.jpg"
+    ]
+  },
+  {
+    "institution": "CWI",
+    "homepage": "http://homepages.cwi.nl",
+    "region": "europe",
+    "pic": [
+      "data/pic/CWI_0.jpg",
+      "data/pic/CWI_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of California - Santa Barbara",
+    "homepage": "https://www.cs.ucsb.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of California - Santa Barbara_0.jpg",
+      "data/pic/University of California - Santa Barbara_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of California - San Diego",
+    "homepage": "http://cseweb.ucsd.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of California - San Diego_0.jpg",
+      "data/pic/University of California - San Diego_1.jpg"
+    ]
+  },
+  {
+    "institution": "Harvard University",
+    "homepage": "http://procaccia.info",
+    "region": "usa",
+    "pic": [
+      "data/pic/Harvard University_0.jpg",
+      "data/pic/Harvard University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Istanbul Technical University",
+    "homepage": "http://tantug.com",
+    "region": "europe",
+    "pic": [
+      "data/pic/Istanbul Technical University_0.jpg",
+      "data/pic/Istanbul Technical University_1.jpg"
+    ]
+  },
+  {
+    "institution": "IST Austria",
+    "homepage": "https://ist.ac.at",
+    "region": "europe",
+    "pic": [
+      "data/pic/IST Austria_0.jpg",
+      "data/pic/IST Austria_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Hawaii at Manoa",
+    "homepage": "http://www2.hawaii.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Hawaii at Manoa_0.jpg",
+      "data/pic/University of Hawaii at Manoa_1.jpg"
+    ]
+  },
+  {
+    "institution": "KMUTNB",
+    "homepage": "https://tggs.kmutnb.ac.th",
+    "region": "asia",
+    "pic": [
+      "data/pic/KMUTNB_0.jpg",
+      "data/pic/KMUTNB_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Louisiana - Lafayette",
+    "homepage": "http://www.ucs.louisiana.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Louisiana - Lafayette_0.jpg",
+      "data/pic/University of Louisiana - Lafayette_1.jpg"
+    ]
+  },
+  {
+    "institution": "Northeastern University",
+    "homepage": "https://www.aanjhan.com",
+    "region": "usa",
+    "pic": [
+      "data/pic/Northeastern University_0.jpg",
+      "data/pic/Northeastern University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Ben-Gurion University of the Negev",
+    "homepage": "https://sites.google.com",
+    "region": "europe",
+    "pic": [
+      "data/pic/Ben-Gurion University of the Negev_0.jpg",
+      "data/pic/Ben-Gurion University of the Negev_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Florida",
+    "homepage": "http://www.cise.ufl.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Florida_0.jpg",
+      "data/pic/University of Florida_1.jpg"
+    ]
+  },
+  {
+    "institution": "Masaryk University",
+    "homepage": "https://www.muni.cz",
+    "region": "europe",
+    "pic": [
+      "data/pic/Masaryk University_0.jpg",
+      "data/pic/Masaryk University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Stevens Institute of Technology",
+    "homepage": "http://www.cs.stevens.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Stevens Institute of Technology_0.jpg",
+      "data/pic/Stevens Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Mississippi",
+    "homepage": "http://www.olemiss.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Mississippi_0.jpg",
+      "data/pic/University of Mississippi_1.jpg"
+    ]
+  },
+  {
+    "institution": "Aarhus University",
+    "homepage": "https://cs.au.dk",
+    "region": "europe",
+    "pic": [
+      "data/pic/Aarhus University_0.jpg",
+      "data/pic/Aarhus University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Arkansas",
+    "homepage": "https://computer-science-and-computer-engineering.uark.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Arkansas_0.jpg",
+      "data/pic/University of Arkansas_1.jpg"
+    ]
+  },
+  {
+    "institution": "Air Force Institute of Technology",
+    "homepage": "https://scholar.afit.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Air Force Institute of Technology_0.jpg",
+      "data/pic/Air Force Institute of Technology_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Texas at San Antonio",
+    "homepage": "http://www.cs.utsa.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Texas at San Antonio_0.jpg",
+      "data/pic/University of Texas at San Antonio_1.jpg"
+    ]
+  },
+  {
+    "institution": "MPI-IS",
+    "homepage": "https://is.mpg.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/MPI-IS_0.jpg",
+      "data/pic/MPI-IS_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Iowa",
+    "homepage": "https://www.cs.uiowa.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Iowa_0.jpg",
+      "data/pic/University of Iowa_1.jpg"
+    ]
+  },
+  {
+    "institution": "Louisiana State University - Baton Rouge",
+    "homepage": "https://www.lsu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Louisiana State University - Baton Rouge_0.jpg",
+      "data/pic/Louisiana State University - Baton Rouge_1.jpg"
+    ]
+  },
+  {
+    "institution": "CMI",
+    "homepage": "http://www.cmi.ac.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/CMI_0.jpg",
+      "data/pic/CMI_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Wyoming",
+    "homepage": "http://www.uwyo.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Wyoming_0.jpg",
+      "data/pic/University of Wyoming_1.jpg"
+    ]
+  },
+  {
+    "institution": "The Hong Kong Polytechnic University",
+    "homepage": "https://www4.comp.polyu.edu.hk",
+    "region": "asia",
+    "pic": [
+      "data/pic/The Hong Kong Polytechnic University_0.jpg",
+      "data/pic/The Hong Kong Polytechnic University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Carnegie Mellon University",
+    "homepage": "http://www.cs.cmu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Carnegie Mellon University_0.jpg",
+      "data/pic/Carnegie Mellon University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Oregon",
+    "homepage": "https://www.cs.uoregon.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Oregon_0.jpg",
+      "data/pic/University of Oregon_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Koblenz-Landau",
+    "homepage": "https://www.uni-koblenz-landau.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Koblenz-Landau_0.jpg",
+      "data/pic/University of Koblenz-Landau_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Manchester",
+    "homepage": "http://www.manchester.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Manchester_0.jpg",
+      "data/pic/University of Manchester_1.jpg"
+    ]
+  },
+  {
+    "institution": "OHSU",
+    "homepage": "http://www.ohsu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/OHSU_0.jpg",
+      "data/pic/OHSU_1.jpg"
+    ]
+  },
+  {
+    "institution": "Humboldt University of Berlin",
+    "homepage": "http://www.zib.de",
+    "region": "europe",
+    "pic": [
+      "data/pic/Humboldt University of Berlin_0.jpg",
+      "data/pic/Humboldt University of Berlin_1.jpg"
+    ]
+  },
+  {
+    "institution": "IIT Delhi",
+    "homepage": "http://www.cse.iitd.ernet.in",
+    "region": "asia",
+    "pic": [
+      "data/pic/IIT Delhi_0.jpg",
+      "data/pic/IIT Delhi_1.jpg"
+    ]
+  },
+  {
+    "institution": "Stony Brook University",
+    "homepage": "http://www.iacs.stonybrook.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Stony Brook University_0.jpg",
+      "data/pic/Stony Brook University_1.jpg"
+    ]
+  },
+  {
+    "institution": "Uppsala University",
+    "homepage": "http://user.it.uu.se",
+    "region": "europe",
+    "pic": [
+      "data/pic/Uppsala University_0.jpg",
+      "data/pic/Uppsala University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Waikato",
+    "homepage": "http://www.cms.waikato.ac.nz",
+    "region": "australasia",
+    "pic": [
+      "data/pic/University of Waikato_0.jpg",
+      "data/pic/University of Waikato_1.jpg"
+    ]
+  },
+  {
+    "institution": "Hebrew University of Jerusalem",
+    "homepage": "http://www.cs.huji.ac.il",
+    "region": "europe",
+    "pic": [
+      "data/pic/Hebrew University of Jerusalem_0.jpg",
+      "data/pic/Hebrew University of Jerusalem_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Massachusetts Amherst",
+    "homepage": "https://www.cics.umass.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Massachusetts Amherst_0.jpg",
+      "data/pic/University of Massachusetts Amherst_1.jpg"
+    ]
+  },
+  {
+    "institution": "Univ. of Illinois at Urbana-Champaign",
+    "homepage": "http://adambates.org",
+    "region": "usa",
+    "pic": [
+      "data/pic/Univ. of Illinois at Urbana-Champaign_0.jpg",
+      "data/pic/Univ. of Illinois at Urbana-Champaign_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Cambridge",
+    "homepage": "http://www.cl.cam.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Cambridge_0.jpg",
+      "data/pic/University of Cambridge_1.jpg"
+    ]
+  },
+  {
+    "institution": "Aalborg University",
+    "homepage": "http://personprofil.aau.dk",
+    "region": "europe",
+    "pic": [
+      "data/pic/Aalborg University_0.jpg",
+      "data/pic/Aalborg University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Nevada Las Vegas",
+    "homepage": "http://www.egr.unlv.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Nevada Las Vegas_0.jpg",
+      "data/pic/University of Nevada Las Vegas_1.jpg"
+    ]
+  },
+  {
+    "institution": "The University of Alabama",
+    "homepage": "http://aibek.cs.ua.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/The University of Alabama_0.jpg",
+      "data/pic/The University of Alabama_1.jpg"
+    ]
+  },
+  {
+    "institution": "Ecole Normale Superieure",
+    "homepage": "https://who.rocq.inria.fr",
+    "region": "europe",
+    "pic": [
+      "data/pic/Ecole Normale Superieure_0.jpg",
+      "data/pic/Ecole Normale Superieure_1.jpg"
+    ]
+  },
+  {
+    "institution": "Kent State University",
+    "homepage": "https://www.kent.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Kent State University_0.jpg",
+      "data/pic/Kent State University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Murcia",
+    "homepage": "http://ditec.um.es",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Murcia_0.jpg",
+      "data/pic/University of Murcia_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of St Andrews",
+    "homepage": "https://aquigley.host.cs.st-andrews.ac.uk",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of St Andrews_0.jpg",
+      "data/pic/University of St Andrews_1.jpg"
+    ]
+  },
+  {
+    "institution": "Dalhousie University",
+    "homepage": "https://www.cs.dal.ca",
+    "region": "canada",
+    "pic": [
+      "data/pic/Dalhousie University_0.jpg",
+      "data/pic/Dalhousie University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Missouri",
+    "homepage": "https://engineering.missouri.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Missouri_0.jpg",
+      "data/pic/University of Missouri_1.jpg"
+    ]
+  },
+  {
+    "institution": "USTC",
+    "homepage": "http://staff.ustc.edu.cn",
+    "region": "asia",
+    "pic": [
+      "data/pic/USTC_0.jpg",
+      "data/pic/USTC_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Edinburgh",
+    "homepage": "http://alopez.github.io",
+    "region": "europe",
+    "pic": [
+      "data/pic/University of Edinburgh_0.jpg",
+      "data/pic/University of Edinburgh_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of New Mexico",
+    "homepage": "http://www.cs.unm.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of New Mexico_0.jpg",
+      "data/pic/University of New Mexico_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Nevada",
+    "homepage": "https://www.cse.unr.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Nevada_0.jpg",
+      "data/pic/University of Nevada_1.jpg"
+    ]
+  },
+  {
+    "institution": "IMDEA Software Institute",
+    "homepage": "http://software.imdea.org",
+    "region": "europe",
+    "pic": [
+      "data/pic/IMDEA Software Institute_0.jpg",
+      "data/pic/IMDEA Software Institute_1.jpg"
+    ]
+  },
+  {
+    "institution": "TU Eindhoven",
+    "homepage": "http://www.win.tue.nl",
+    "region": "europe",
+    "pic": [
+      "data/pic/TU Eindhoven_0.jpg",
+      "data/pic/TU Eindhoven_1.jpg"
+    ]
+  },
+  {
+    "institution": "Tel Aviv University",
+    "homepage": "http://www.cs.tau.ac.il",
+    "region": "europe",
+    "pic": [
+      "data/pic/Tel Aviv University_0.jpg",
+      "data/pic/Tel Aviv University_1.jpg"
+    ]
+  },
+  {
+    "institution": "George Washington University",
+    "homepage": "https://www.seas.gwu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/George Washington University_0.jpg",
+      "data/pic/George Washington University_1.jpg"
+    ]
+  },
+  {
+    "institution": "IMDEA Networks Institute",
+    "homepage": "https://www.networks.imdea.org",
+    "region": "europe",
+    "pic": [
+      "data/pic/IMDEA Networks Institute_0.jpg",
+      "data/pic/IMDEA Networks Institute_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Queensland",
+    "homepage": "http://researchers.uq.edu.au",
+    "region": "australasia",
+    "pic": [
+      "data/pic/University of Queensland_0.jpg",
+      "data/pic/University of Queensland_1.jpg"
+    ]
+  },
+  {
+    "institution": "Lehigh University",
+    "homepage": "http://www.cse.lehigh.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Lehigh University_0.jpg",
+      "data/pic/Lehigh University_1.jpg"
+    ]
+  },
+  {
+    "institution": "University of Utah",
+    "homepage": "http://www.cs.utah.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/University of Utah_0.jpg",
+      "data/pic/University of Utah_1.jpg"
+    ]
+  },
+  {
+    "institution": "Universidade de Lisboa",
+    "homepage": "https://www.l2f.inesc-id.pt",
+    "region": "europe",
+    "pic": [
+      "data/pic/Universidade de Lisboa_0.jpg",
+      "data/pic/Universidade de Lisboa_1.jpg"
+    ]
+  },
+  {
+    "institution": "TTI Chicago",
+    "homepage": "http://www.cs.cmu.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/TTI Chicago_0.jpg",
+      "data/pic/TTI Chicago_1.jpg"
+    ]
+  },
+  {
+    "institution": "Brandeis University",
+    "homepage": "http://www.brandeis.edu",
+    "region": "usa",
+    "pic": [
+      "data/pic/Brandeis University_0.jpg",
+      "data/pic/Brandeis University_1.jpg"
+    ]
+  }
+]
