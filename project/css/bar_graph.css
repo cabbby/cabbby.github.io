@@ -1,0 +1,204 @@
+@keyframes movePanel{
+from{
+right:0;
+opacity:0;
+}
+to{
+right:24px;
+opacity:1;
+}
+}
+@-moz-keyframes movePanel{
+from{
+right:0;
+opacity:0;
+}
+to{
+right:24px;
+opacity:1;
+}
+}
+@-webkit-keyframes movePanel{
+from{
+right:0;
+opacity:0;
+}
+to{
+right:24px;
+opacity:1;
+}
+}
+@-o-keyframes movePanel{
+from{
+right:0;
+opacity:0;
+}
+to{
+right:24px;
+opacity:1;
+}
+}
+
+
+.artistName{
+user-select:none;
+font-family:"Segoe UI","Segoe UI Web (West European)","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+-webkit-font-smoothing:antialiased;
+font-size:20px;
+font-weight:600;
+color:rgb(15,10,10);
+box-sizing:border-box;
+box-shadow:none;
+margin-bottom:3px;
+display:block;
+overflow-wrap:break-word;
+}
+.artistSubtitle{
+user-select:none;
+font-family:"Segoe UI","Segoe UI Web (West European)","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+-webkit-font-smoothing:antialiased;
+font-size:16px;
+font-weight:600;
+color:steelblue;
+box-sizing:border-box;
+box-shadow:none;
+display:block;
+overflow-wrap:break-word;
+padding-top:6px;
+padding-bottom:1.5px;
+line-height:19px;
+}
+.artistContent{
+user-select:none;
+font-family:"Segoe UI","Segoe UI Web (West European)","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+-webkit-font-smoothing:antialiased;
+font-size:14px;
+font-weight:500;
+color:rgb(35,32,32);
+box-sizing:border-box;
+box-shadow:none;
+display:block;
+overflow-wrap:break-word;
+padding-top:1.5px;
+padding-bottom:6px;
+line-height:17px;
+}
+.subtitle{
+user-select:none;
+font-family:"Segoe UI","Segoe UI Web (West European)","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+-webkit-font-smoothing:antialiased;
+font-size:18px;
+font-weight:600;
+color:rgb(15,10,10);
+box-sizing:border-box;
+box-shadow:none;
+display:block;
+overflow-wrap:break-word;
+}
+.showOrNot{
+animation:movePanel 1s;
+-moz-animation:movePanel 1s;
+-webkit-animation:movePanel 1s;
+-o-animation:movePanel 1s;
+animation-fill-mode:forwards;
+border-radius:3px;
+box-shadow:0 6.4px 14.4px 0 rgba(0,0,0,.132),0 1.2px 3.6px 0 rgba(0,0,0,.108);
+width:60px;
+height: 60px;
+position:fixed;
+bottom:24px;
+left:24px;
+opacity:0;
+background:rgba(255,255,255,.8)}
+.leftBar{
+/*animation:movePanel 1s;
+-moz-animation:movePanel 1s;
+-webkit-animation:movePanel 1s;
+-o-animation:movePanel 1s;*/
+/*animation-fill-mode:forwards;*/
+min-width:298px;
+border-radius:0px;
+box-shadow:0 6.4px 14.4px 0 rgba(0,0,0,.132),0 1.2px 3.6px 0 rgba(0,0,0,.108);
+width:calc(16% + 60px);
+
+padding:20px 6px 20px 24px;
+position:fixed;
+top:24px;
+right:10px;
+opacity:0;
+overflow-x: hidden; /*x轴禁止滚动*/
+overflow-y: scroll;
+background:rgba(255,255,255,.8)}
+.leftBar::-webkit-scrollbar {
+    display: none;
+}
+
+.bottomBar{
+/*animation:movePanel 1s;
+-moz-animation:movePanel 1s;
+-webkit-animation:movePanel 1s;
+-o-animation:movePanel 1s;
+animation-fill-mode:forwards;*/
+min-width:298px;
+border-radius:3px;
+box-shadow:0 6.4px 14.4px 0 rgba(0,0,0,.132),0 1.2px 3.6px 0 rgba(0,0,0,.108);
+width:85%;
+height: 40px;
+padding:20px 10px 10px 10px;
+position:fixed;
+bottom:24px;
+left:100px;
+opacity:0;
+text-align:center;
+margin:0 auto;
+/*overflow-x: hidden;
+overflow-y: scroll;*/
+background:rgba(255,255,255,.8)}
+/*.bottomBar::-webkit-scrollbar {
+    display: none;
+}*/
+
+.rightBar{
+min-width:288px;
+border-radius:0px;
+box-shadow:0 6.4px 14.4px 0 rgba(0,0,0,.132),0 1.2px 3.6px 0 rgba(0,0,0,.108);
+width:calc(16% + 50px);
+height:50%;
+padding:20px 16px 20px 24px;
+/*position:absolute;*/
+position:fixed;
+top:160px;
+right:0px;
+opacity:0;
+overflow-x: hidden; /*x轴禁止滚动*/
+overflow-y: scroll;
+background:rgba(255,255,255,.8)}
+.rightBar::-webkit-scrollbar {
+    display: none;
+}
+.rightBar-moved{
+animation:movePanel 1s;
+-moz-animation:movePanel 1s;
+-webkit-animation:movePanel 1s;
+-o-animation:movePanel 1s;
+animation-fill-mode:forwards;
+}
+
+.img{
+border-radius:0 0 3px 3px;
+position:absolute;
+bottom:10px;
+left:0;
+width:100%;
+height:50%;
+background:rgba(255,255,255,.8);
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.imagefit{
+    
+    max-width:90%;
+    max-height:100%;
+}

@@ -1,0 +1,40 @@
+.line {
+  fill: none;
+  stroke: steelblue;
+  /*opacity: 0.5;*/
+  clip-path: url(#clip);
+}
+
+
+#chart1 {
+  width: 1400px;
+  height: 700px;
+  /*border: solid 1px #ccc;*/
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#chart1 .node {
+  stroke: #fff;
+  /*opacity: 1;*/
+  stroke-width: 1.5px;
+}
+
+#chart1 .link {
+  stroke: #999;
+  stroke-opacity: .2;
+  stroke-width: 1.5px;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}

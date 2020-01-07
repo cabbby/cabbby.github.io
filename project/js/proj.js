@@ -155,7 +155,9 @@ class SBC_inst {
                     .style("font-weight", d => d_fac_all.inst[d] == inst? "bold": "normal");
                 g_fac.bg.selectAll(".bgbar")
                     .style("stroke", "black")
-                    .style("stroke-width", d => d_fac_all.inst[d] == inst? 0.5: 0);
+                    .style("stroke-width", d => d_fac_all.inst[d] == inst? 1: 0);
+                g_fac.bg.selectAll(".bgbar")
+                    .sort((a, b) => (d_fac_all.inst[a] == inst) - (d_fac_all.inst[b] == inst));
 
             }).on("mouseout", function(d) {
                 d3.select(this).style("font-weight", "normal");
@@ -186,8 +188,9 @@ class SBC_inst {
 
                 let tip = d3.tip()
                     .attr("class", "d3-tip")
+                    .offset([-5, 0])
                     .html((d, i) => {
-                        return `${fieldname[data.fields[seriesId]]} ${d[1] - d[0]}`;
+                        return `<strong>${fieldname[data.fields[seriesId]]}</strong>: ${d[1] - d[0]}`;
                     });
 
                 g.selectAll(".bar")
@@ -309,7 +312,9 @@ class SBC_fac {
                     .style("font-weight", d => d == inst? "bold": "normal");
                 g_inst.bg.selectAll(".bgbar")
                     .style("stroke", "black")
-                    .style("stroke-width", d => d == inst? 0.5: 0);
+                    .style("stroke-width", d => d == inst? 1: 0);
+                g_inst.bg.selectAll(".bgbar")
+                    .sort((a, b) => (a == inst) - (b == inst));
 
             }).on("mouseout", function(d) {
                 d3.select(this).style("font-weight", "normal");
@@ -340,8 +345,9 @@ class SBC_fac {
 
                 let tip = d3.tip()
                     .attr("class", "d3-tip")
+                    .offset([-5, 0])
                     .html((d, i) => {
-                        return `${fieldname[data.fields[seriesId]]} ${d[1] - d[0]}`;
+                        return `<strong>${fieldname[data.fields[seriesId]]}</strong>: ${d[1] - d[0]}`;
                     });
 
                 g.selectAll(".bar")
@@ -450,10 +456,11 @@ class Hist_fac {
             .data(bins_sel)
             .join("rect")
             .classed("bar_sel", true)
+            .style("fill", "orange")
             .attr("transform", d => `translate(${[1, y(d.x0) + 1]})`)
+            .transition()
             .attr("width", d => x(d.length))
-            .attr("height", d => y(d.x1) - y(d.x0) - 2)
-            .style("fill", "orange");
+            .attr("height", d => y(d.x1) - y(d.x0) - 2);
             
         this.brush.on("brush end", function () {
             sel_range = d3.event.selection;

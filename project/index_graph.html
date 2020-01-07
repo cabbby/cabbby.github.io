@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/bar_graph.css">
+	<link rel="stylesheet" type="text/css" href="css/chart_graph.css">
+	<!-- <script src="js/d3.js"></script> -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.range.js"></script>
+	<title>Co-authorship Visualization</title>
+</head>
+<body>
+	<div id="chart1" style="position: absolute; top: 20%">
+
+	</div>
+	<script src="js/d3/d3.v2.min.js" charset="utf-8"></script>
+	<script src="js/fisheye.js"></script>
+
+	<div id="sliders" class="leftBar rightBar-moved">
+		<div class="artistName"><a href="index.html">Back</a></div>
+		<div class="artistName">Regions</div>
+		  <select id="regions" name="regions">
+		    <option value="USA">the USA</option>
+		    <option value="canada">Canada</option>
+		    <option value="northamerica">USA and Canada</option>
+		    <option value="southamerica">South America</option>
+		    <option value="asia">Asia</option>
+		    <option value="australasia">Australasia</option>
+		    <option value="europe">Europe</option>
+		    <option value="africa">Africa</option>
+		    <option value="world">the world</option>
+		  </select>
+	</div>
+	<script type="text/javascript">
+		d3.selectAll("option")
+			.property("selected", function(d) {
+				let t = d3.select(this).property("value") == "world";
+				d3.select(this).property("selected", t);
+			});
+
+		// d3.selectAll("option").property("selected", d => d.property("value") == "world"? "selected": null);
+		d3.select("#regions").on("change",function(){
+			console.log(this.value);
+			changeShow(this.value);
+		})
+
+
+	</script>
+
+
+	<div id="bar" class="rightBar">
+        <div id="bar_name" class="artistName">-</div>
+        <div class="artistSubtitle">Homepage</div>
+        <div id="bar_homepage" class="artistContent">-</div>
+        <div class="artistSubtitle">Region</div>
+        <div id="bar_region" class="artistContent">-</div>
+        <div class="img">
+            <img id="bar_image1" class="imagefit">
+            <img id="bar_image2" class="imagefit">
+        </div>
+    </div>
+
+    <script src="js/info_graph.js"></script>
+    <!-- <script src="js/line.js"></script> -->
+</body>
+</html>
