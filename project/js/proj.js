@@ -7,6 +7,7 @@ let col = {
     "theory": d3.schemeTableau10[2],
     "interdisciplinary": d3.schemeTableau10[3]
 };
+let _y;
 
 let areaname = {
     'all': 'All areas',
@@ -64,10 +65,12 @@ class SBC_inst {
             .style("font-size", "18px")
             .style("font-weight", "bold")
             .text("Rankings of Institutions");
+        this.legend = this.svg.append("g");
     }
 
     update(data) {
         this.caption.attr("transform", `translate(${[this.x, this.y]})`)
+        this.legend.attr("transform", `translate(${[this.x + 241, this.y - 10]})`)
         this.g.attr("transform", `translate(${[this.x, this.y + 20]})`)
         this.bg.attr("transform", `translate(${[this.x, this.y + 20]})`)
 
@@ -75,6 +78,30 @@ class SBC_inst {
         let entities = data.entities;
         let count = [];
         entities.forEach(entity => count.push(data.count[entity]));
+
+
+        let legend = [];
+        fields.forEach(field => legend.push([fieldname[field], col[field]]));
+        let legendSize = 12, legendDist = 10;
+        this.legend.selectAll(".legend").remove();
+        let gs = this.legend.selectAll(".legend")
+            .data(legend)
+            .join("g")
+            .classed("legend", true);
+        gs.append("rect")
+            .attr("width", legendSize)
+            .attr("height", legendSize)
+            .style("fill", d => d[1]);
+        gs.append("text")
+            .text(d => d[0])
+            .attr("transform", `translate(${[(legendSize + 5), legendSize - 2]})`);
+        gs.attr("transform", (d, i, g) => {
+            let sum = 0;
+            for (let j = 0; j < i; j++)
+                sum += g[j].getBBox().width + legendDist;
+            return `translate(${[sum, 0]})`;
+        });
+
 
         this.height = entities.length * this.bar_width + (entities.length - 1) * this.bar_padding * 2;
 
@@ -102,14 +129,16 @@ class SBC_inst {
         let series = stack(count);
 
         this.bg.selectAll(".bgbar")
-            .data(entities)
+            .data(entities.map((d, i) => {return {name: d, id: i}}))
             .join("rect")
             .classed("bgbar", true)
-            .attr("transform", d => `translate(${[0, scaleY(d) - bar_width / 2 - bar_padding]})`)
+            .attr("transform", d => `translate(${[0, scaleY(d.name) - bar_width / 2 - bar_padding]})`)
             .attr("width", width)
             .attr("height", bar_width + bar_padding * 2)
-            .style("fill", (d, i) => (i % 2 == 0)? "#F0F0F0": "white")
+            .style("fill", d => sel_insts.indexOf(d.name) > -1? "grey": ((d.id % 2 == 0)? "#F0F0F0": "white"))
             .on("click", (d) => {
+                d = d.name;
+                console.log(d);
                 let p = sel_insts.indexOf(d);
                 if (p == -1)
                     sel_insts.push(d);
@@ -117,14 +146,14 @@ class SBC_inst {
                     sel_insts.splice(p, 1);
 
                 this.bg.selectAll(".bgbar")
-                    .style("fill", (d, i) => sel_insts.indexOf(d) > -1? "grey": ((i % 2 == 0)? "#F0F0F0": "white"));
+                    .style("fill", d => sel_insts.indexOf(d.name) > -1? "grey": ((d.id % 2 == 0)? "#F0F0F0": "white"));
                 
                 d_fac = prep_fac(sel_insts.length > 0? d_region.filter(d => sel_insts.indexOf(d["institution"]) > -1): d_region);
                 d_fac.entities.sort((a, b) => {
                     return sumdict(d_fac.count[b]) - sumdict(d_fac.count[a]);
                 })
                 g_fac_hist.update(d_fac_all, d_fac);
-                let s = sel_range.map(d => y.invert(d));
+                let s = sel_range.map(d => _y.invert(d));
                 g_fac.update(filter_fac_count(d_fac, s));
             });
 
@@ -235,10 +264,13 @@ class SBC_fac {
             .style("font-size", "18px")
             .style("font-weight", "bold")
             .text("Rankings of Faculties");
+
+        this.legend = this.svg.append("g");
     }
 
     update(data) {
         this.caption.attr("transform", `translate(${[this.x, this.y]})`)
+        this.legend.attr("transform", `translate(${[this.x + 215, this.y - 10]})`)
         this.g.attr("transform", `translate(${[this.x, this.y + 20]})`)
         this.bg.attr("transform", `translate(${[this.x, this.y + 20]})`)
 
@@ -246,6 +278,28 @@ class SBC_fac {
         let entities = data.entities;
         let count = [];
         entities.forEach(entity => count.push(data.count[entity]));
+
+        let legend = [];
+        fields.forEach(field => legend.push([fieldname[field], col[field]]));
+        let legendSize = 12, legendDist = 10;
+        this.legend.selectAll(".legend").remove();
+        let gs = this.legend.selectAll(".legend")
+            .data(legend)
+            .join("g")
+            .classed("legend", true);
+        gs.append("rect")
+            .attr("width", legendSize)
+            .attr("height", legendSize)
+            .style("fill", d => d[1]);
+        gs.append("text")
+            .text(d => d[0])
+            .attr("transform", `translate(${[(legendSize + 5), legendSize - 2]})`);
+        gs.attr("transform", (d, i, g) => {
+            let sum = 0;
+            for (let j = 0; j < i; j++)
+                sum += g[j].getBBox().width + legendDist;
+            return `translate(${[sum, 0]})`;
+        });
 
         this.height = entities.length * this.bar_width + (entities.length - 1) * this.bar_padding * 2;
 
@@ -260,7 +314,7 @@ class SBC_fac {
             .padding(0.5);
         this.scaleX = d3.scaleLinear()
             .domain([0, this.extentX[1]])
-            .range([200, this.width - 40]);
+            .range([200 + 14, this.width - 40]);
        
         let width = this.width, height = this.height, bar_width = this.bar_width, bar_padding = this.bar_padding;
         let scaleX = this.scaleX, scaleY = this.scaleY;
@@ -398,6 +452,8 @@ class Hist_fac {
             .style("font-weight", "bold")
             .text("Distribution of Faculties");
 
+        this.legend = this.svg.append("g");
+
         this.lblX = this.g.append("text")
             .attr("class", "x label")
             .attr("x", this.width - 130)
@@ -412,7 +468,29 @@ class Hist_fac {
 
     update(data, data_sel) {
         this.caption.attr("transform", `translate(${[this.x, this.y]})`);
-        this.g.attr("transform", `translate(${[this.x, this.y + 22]})`);
+        this.legend.attr("transform", `translate(${[this.x + 240, this.y - 10]})`);
+        this.g.attr("transform", `translate(${[this.x, this.y + 25]})`);
+
+        let legend = [["Selected", d3.schemeTableau10[4]], ["All", d3.schemeTableau10[5]]];
+        let legendSize = 12, legendDist = 10;
+        this.legend.selectAll(".legend").remove();
+        let gs = this.legend.selectAll(".legend")
+            .data(legend)
+            .join("g")
+            .classed("legend", true);
+        gs.append("rect")
+            .attr("width", legendSize)
+            .attr("height", legendSize)
+            .style("fill", d => d[1]);
+        gs.append("text")
+            .text(d => d[0])
+            .attr("transform", `translate(${[(legendSize + 5), legendSize - 2]})`);
+        gs.attr("transform", (d, i, g) => {
+            let sum = 0;
+            for (let j = 0; j < i; j++)
+                sum += g[j].getBBox().width + legendDist;
+            return `translate(${[sum, 0]})`;
+        });
 
         data = data.entities.map(fac => sumdict(data.count[fac]));
         data_sel = data_sel.entities.map(fac => sumdict(data_sel.count[fac]));
@@ -424,6 +502,7 @@ class Hist_fac {
         let y = d3.scaleLinear()
             .domain(extent)
             .range([0, this.height]);
+        _y = y;
 
         let nBin = 15;
         let hist = d3.histogram()
@@ -450,14 +529,14 @@ class Hist_fac {
             .attr("transform", d => `translate(${[1, y(d.x0) + 1]})`)
             .attr("width", d => x(d.length))
             .attr("height", d => y(d.x1) - y(d.x0) - 2)
-            .style("fill", "steelblue");
+            .style("fill", d3.schemeTableau10[5]);
 
         let bins_sel = hist(data_sel).filter(d => d.length > 0);
         this.g.selectAll(".bar_sel")
             .data(bins_sel)
             .join("rect")
             .classed("bar_sel", true)
-            .style("fill", "orange")
+            .style("fill", d3.schemeTableau10[4])
             .attr("transform", d => `translate(${[1, y(d.x0) + 1]})`)
             .transition()
             .attr("width", d => x(d.length))
@@ -612,7 +691,6 @@ function get_data_filtered() {
 
 
 function refresh() {
-
     d_region = get_data_filtered();
 
     d_inst_all = prep_inst(d_region);
